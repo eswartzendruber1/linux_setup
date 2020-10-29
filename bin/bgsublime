@@ -1,0 +1,2 @@
+#!/bin/sh
+/home/erics/local/bin/subl -n $* &> /dev/null &

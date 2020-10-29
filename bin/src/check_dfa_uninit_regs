@@ -1,0 +1,125 @@
+#!/bin/csh -f
+
+# comment
+set exceptions = "^#"
+
+# header string
+set exceptions = "$exceptions|^ID"
+
+# lib_sync_flop_fifo
+set exceptions = "$exceptions|,lib_sync_flop_fifo_"
+
+# lib_sync_shift_fifo
+set exceptions = "$exceptions|,lib_sync_shift_fifo_"
+
+# lib_async_fifo
+set exceptions = "$exceptions|\.u_lib_async_flop_mem\.u_fasync_rddata_en_dflop_b"
+set exceptions = "$exceptions|\.u_lib_async_flop_mem\.u_fasync_mem_w"
+
+# memory wrappers
+set exceptions = "$exceptions|,lib_mwrp_"
+
+# bypass macro
+set exceptions = "$exceptions|,lib_bypass_v2_"
+
+# lib_rsu
+set exceptions = "$exceptions|,lib_rsu_"
+
+# lib_wu_crd_pf
+set exceptions = "$exceptions|,lib_wu_crd_pf_"
+
+# fla
+set exceptions = "$exceptions|pc_rgx_put\.fla_slave_i0"
+
+# clk_gater
+set exceptions = "$exceptions|pc_rgx_put\.pc_clk_gater"
+set exceptions = "$exceptions|pc_rgx_put\.clk_gater"
+
+# dfa 1/2 (only look at dfa 0)
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_1"
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_2"
+
+#rcp
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_rcp"
+
+#nfa
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_nfa"
+
+#exm_rd_arb - 
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_exm_rd_arb\.tag_mem\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_exm_rd_arb\.dmi_rrsp_tag_r\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_exm_rd_arb\.exm_rd_addr_r\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_exm_rd_arb\.new_exm_rd_tag_r\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_exm_rd_arb\.exm_rrsp_dfa_sel_r\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_exm_rd_arb\.exm_rrsp_tag_r\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_exm_rd_arb\.exm_rrsp_data_r\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_exm_rd_arb\.exm_rrsp_err_r"
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_exm_rd_arb\.exm_rrsp_derr_r"
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_exm_rd_arb\.exm_rd_ins_r\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_exm_rd_arb\.exm_rd_tag_r\["
+
+# bm_async_intf
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_bm_async_intf\.u_rgx_bm_rd_async_io_.*\.rsp_tag_r\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_bm_async_intf\.u_rgx_bm_wr_async_io\.wr_req_addr_rx\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_bm_async_intf\.u_rgx_bm_wr_async_io\.wr_req_data_rx\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_bm_async_intf\.port_id_fifo_data_in_r1\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_bm_async_intf\.port_id_fifo_data_out_d\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_bm_async_intf\.bp_payload_.*_r\["
+
+# rn_op_fsm
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_rn_op_fsm\.hdr_root_cfg_rx\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_rn_op_fsm\.rn_exm_base_addr_rx\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_rn_op_fsm\.rn_exm_top_addr_rx\["
+
+# bm_intf
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_bm_intf\.cur_byte_r1\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_bm_intf\.cn_used_r1\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_bm_intf\.bm_slot_vld_r1\["  #Note: still qualified with another valid
+
+# pipe - all things in pipe are qualified with ops & valids
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.cur_byte_r2\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.cur_byte_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.res_gidx_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.res_offset_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.nn_mtype_r4"
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.rn_mtype_r4"
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.rbm_mode_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.rbm_node_slice_base_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.exm_base_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.nn_exm_slice_addr_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.pending_stall_cond_r5\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.cn_tag_r5\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.ret_code_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.state_mem_wr_data_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.update_nxt_node_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.nn_loc_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.cn_tag_r4\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.cache_loc_r3\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.nn_mtype_r5"
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_pipe\.rn_mtype_r5"
+
+# thread
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_thread_ctrl\.u_dfa_thread_.*_state\.rn_exm_rx"
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_thread_ctrl\.u_dfa_thread_.*_state\.o_exm_base_rx\["
+
+# exm_intf
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.exm_tid_e0r1\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.exm_ins_e0r1\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.rn_req_cnt_e0r0\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.exm_rd_slice_addr_e0r1\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.rsp_err_rx"
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.rsp_derr_rx"
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.cur_byte_r1x\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.chk_slot_r1x\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.exp_used_r1x\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.nn_base_r\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.rsp_flit0_r0x\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.rsp_flit1_r1x\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.rsp_flit2_r2x\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.rsp_flit3_r3x\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.nn_cfg_r\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.rsp_flit0_r2\["
+set exceptions = "$exceptions|pc_rgx_put\.u_rgx_dfa_0\.u_dfa_exm_intf\.rsp_flit1_r2\["
+
+egrep -v "$exceptions" $1
+

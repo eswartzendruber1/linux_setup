@@ -1,0 +1,19 @@
+[user]
+	name = Eric Swartzendruber
+	email = eric.swartzendruber@fungible.com
+[core]
+	editor = emacs
+[difftool]
+	prompt = false
+[alias]
+	visual = !gitk
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+[diff]
+	tool = tkdiff
+[include]
+path = "/project/users/fe-git/asics.git/hooks/aliases"

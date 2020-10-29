@@ -1,0 +1,1528 @@
+EricS: round = 0
+('EricS: a = ', '0x6a09e667f3bcc908L')
+
+
+
+
+
+
+('EricS: round = ', 0)
+('EricS: s0 = ', '0x8c4db56aac80c2aL')
+('EricS: s1 = ', '0x9427e33bb5c9dbcaL')
+('EricS: maj = ', '0x3a6fe667f69ce92bL')
+('EricS: t1 = ', '0x1b37b0cfa1b97e8a0L')
+('EricS: t2 = ', '0x4334c1bea164f555L')
+('EricS: ch = ', '0x1f85c98c7b273d3bL')
+('EricS: kpw = ', '0xa3ec9318d728ae22L')
+('EricS: k = ', '0x428a2f98d728ae22L')
+('EricS: w = ', '0x6162638000000000')
+
+
+('EricS: a = ', '0xf6afceb8bcfcddf5L')
+
+
+
+
+
+
+('EricS: round = ', 1)
+('EricS: s0 = ', '0x918b1199fcba47b8L')
+('EricS: s1 = ', '0x239c6f9100f091f8L')
+('EricS: maj = ', '0xfa2feea5b4fccd39L')
+('EricS: t1 = ', '0x18765f88a49d017cfL')
+('EricS: t2 = ', '0x18bbb003fb1b714f1L')
+('EricS: ch = ', '0xd30e6abc29ae629fL')
+('EricS: kpw = ', '0x7137449123ef65cdL')
+('EricS: k = ', '0x7137449123ef65cdL')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0x1320f8c9fb872cc0L')
+
+
+
+
+
+
+('EricS: round = ', 2)
+('EricS: s0 = ', '0x55640968b6e1f35cL')
+('EricS: s1 = ', '0x82b18d21686b99f8L')
+('EricS: maj = ', '0x7229eee9fbbccdc0L')
+('EricS: t1 = ', '0x2244203b46d9ed0d7L')
+('EricS: t2 = ', '0xc78df852b29ec11cL')
+('EricS: ch = ', '0x50ca1236eda78f91L')
+('EricS: kpw = ', '0xb5c0fbcfec4d3b2fL')
+('EricS: k = ', '0xb5c0fbcfec4d3b2fL')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0xebcffc07203d91f3L')
+
+
+
+
+
+
+('EricS: round = ', 3)
+('EricS: s0 = ', '0xc5960061a1dba08bL')
+('EricS: s1 = ', '0xa2b6fdf0ad0661e6L')
+('EricS: maj = ', '0xf3affc89b8bd9df1L')
+('EricS: t1 = ', '0x2a13dce53256bd006L')
+('EricS: t2 = ', '0x1b945fceb5a993e7cL')
+('EricS: ch = ', '0xc3c2a23d48f50f93L')
+('EricS: kpw = ', '0xe9b5dba58189dbbcL')
+('EricS: k = ', '0xe9b5dba58189dbbcL')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0x5a83cb3e80050e82L')
+
+
+
+
+
+
+('EricS: round = ', 4)
+('EricS: s0 = ', '0xdd51a1983a2946b1L')
+('EricS: s1 = ', '0x1ff73b83b8c70132L')
+('EricS: maj = ', '0x5b83f80fa0050cc2L')
+('EricS: t1 = ', '0x17daafb917731f4edL')
+('EricS: t2 = ', '0x138d599a7da2e5373L')
+('EricS: ch = ', '0xcb91fb7d506d1ef2L')
+('EricS: kpw = ', '0x3956c25bf348b538L')
+('EricS: k = ', '0x3956c25bf348b538L')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0xb680953951604860L')
+
+
+
+
+
+
+('EricS: round = ', 5)
+('EricS: s0 = ', '0x30fe548384c477f1L')
+('EricS: s1 = ', '0xda2b5b14ea8070d5L')
+('EricS: maj = ', '0xfa83dd3f002508e2L')
+('EricS: t1 = ', '0x283d5093fbb5508faL')
+('EricS: t2 = ', '0x12b8231c284e980d3L')
+('EricS: ch = ', '0x8be3b03bd269b812L')
+('EricS: kpw = ', '0x59f111f1b605d019L')
+('EricS: k = ', '0x59f111f1b605d019L')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0xaf573b02403e89cdL')
+
+
+
+
+
+
+('EricS: round = ', 6)
+('EricS: s0 = ', '0x976743ba05f8d092L')
+('EricS: s1 = ', '0xdf5f907f55efcdc6L')
+('EricS: maj = ', '0xbe839b3a402408c0L')
+('EricS: t1 = ', '0x26e9c7c18349f2e19L')
+('EricS: t2 = ', '0x155eadef4461cd952L')
+('EricS: ch = ', '0x1d53b6ba3d2c98a6L')
+('EricS: kpw = ', '0x923f82a4af194f9bL')
+('EricS: k = ', '0x923f82a4af194f9bL')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0xc4875b0c7abc076bL')
+
+
+
+
+
+
+('EricS: round = ', 7)
+('EricS: s0 = ', '0xad9a0f686edd68b2L')
+('EricS: s1 = ', '0x3f98114af857b078L')
+('EricS: maj = ', '0xa6871b08503c0969L')
+('EricS: t1 = ', '0x12c72a72520ebdd88L')
+('EricS: t2 = ', '0x154212a70bf19721bL')
+('EricS: ch = ', '0x3676824934fe12eaL')
+('EricS: kpw = ', '0xab1c5ed5da6d8118L')
+('EricS: k = ', '0xab1c5ed5da6d8118L')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0x8093d195e0054fa3L')
+
+
+
+
+
+
+('EricS: round = ', 8)
+('EricS: s0 = ', '0x5395a34fae18ca98L')
+('EricS: s1 = ', '0xbaf8c212505510c6L')
+('EricS: maj = ', '0x84975b04603c0febL')
+('EricS: t1 = ', '0x219bfa7003e63b7a2L')
+('EricS: t2 = ', '0xd82cfe540e54da83L')
+('EricS: ch = ', '0x1264700b16dcd1b8L')
+('EricS: kpw = ', '0xd807aa98a3030242L')
+('EricS: k = ', '0xd807aa98a3030242L')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0xf1eca5544cb89225L')
+
+
+
+
+
+
+('EricS: round = ', 9)
+('EricS: s0 = ', '0x703e77f22952a55bL')
+('EricS: s1 = ', '0x1ccc1710fe807cffL')
+('EricS: maj = ', '0xc087d11468bc0723L')
+('EricS: t1 = ', '0x150b1e443cba5e285L')
+('EricS: t2 = ', '0x130c64906920eac7eL')
+('EricS: ch = ', '0x8a6c7027d0d8c00eL')
+('EricS: kpw = ', '0x12835b0145706fbeL')
+('EricS: k = ', '0x12835b0145706fbeL')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0x81782d4a5db48f03L')
+
+
+
+
+
+
+('EricS: round = ', 10)
+('EricS: s0 = ', '0xd89ebae6f0de2fadL')
+('EricS: s1 = ', '0x959721013c9a9e7L')
+('EricS: maj = ', '0x81f8a5544cb48f23L')
+('EricS: t1 = ', '0x10eedec0f635f9c89L')
+('EricS: t2 = ', '0x15a97603b3d92bed0L')
+('EricS: ch = ', '0x86f67c21abd4800aL')
+('EricS: kpw = ', '0x243185be4ee4b28cL')
+('EricS: k = ', '0x243185be4ee4b28cL')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0x69854c4aa0f25b59L')
+
+
+
+
+
+
+('EricS: round = ', 11)
+('EricS: s0 = ', '0x3258c7f670e69d20L')
+('EricS: s1 = ', '0xeac174d9b7c0354bL')
+('EricS: maj = ', '0xe1ec2d4a4cb09b01L')
+('EricS: t1 = ', '0x1c6c5a4233a74f689L')
+('EricS: t2 = ', '0x11444f540bd973821L')
+('EricS: ch = ', '0x13f220bc42052L')
+('EricS: kpw = ', '0x550c7dc3d5ffb4e2L')
+('EricS: k = ', '0x550c7dc3d5ffb4e2L')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0xdb0a9963f80c2eaaL')
+
+
+
+
+
+
+('EricS: round = ', 12)
+('EricS: s0 = ', '0xb931f95a53dd2555L')
+('EricS: s1 = ', '0x55b731909da983cdL')
+('EricS: maj = ', '0xc9080d4af8b40f0bL')
+('EricS: t1 = ', '0x1dc071a9e3b8737b4L')
+('EricS: t2 = ', '0x1823a06a54c913460L')
+('EricS: ch = ', '0x43514f5f1b9e2a76L')
+('EricS: kpw = ', '0x72be5d74f27b896fL')
+('EricS: k = ', '0x72be5d74f27b896fL')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0x5e41214388186c14L')
+
+
+
+
+
+
+('EricS: round = ', 13)
+('EricS: s0 = ', '0xe490ea98db3ede2aL')
+('EricS: s1 = ', '0x2c555b56fcd07b2fL')
+('EricS: maj = ', '0x5b010943a8186e18L')
+('EricS: t1 = ', '0x10492a254a205e05eL')
+('EricS: t2 = ', '0x13f91f3dc83574c42L')
+('EricS: ch = ', '0x575575b95e3a622cL')
+('EricS: kpw = ', '0x80deb1fe3b1696b1L')
+('EricS: k = ', '0x80deb1fe3b1696b1L')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0x44249631255d2ca0L')
+
+
+
+
+
+
+('EricS: round = ', 14)
+('EricS: s0 = ', '0x7ecf3b7513c80fb2L')
+('EricS: s1 = ', '0xe921a49e3d5f4460L')
+('EricS: maj = ', '0x5e009163a81c2ca0L')
+('EricS: t1 = ', '0x31dc6b214c9bc43d6L')
+('EricS: t2 = ', '0xdccfccd8bbe43c52L')
+('EricS: ch = ', '0xc553bfb3887a494dL')
+('EricS: kpw = ', '0x9bdc06a725c71235L')
+('EricS: k = ', '0x9bdc06a725c71235L')
+('EricS: w = ', '0x0')
+
+
+('EricS: a = ', '0xfa967eed85a08028L')
+
+
+
+
+
+
+('EricS: round = ', 15)
+('EricS: s0 = ', '0xe06b6385c6375d9eL')
+('EricS: s1 = ', '0xf4c0abb29129d5eeL')
+('EricS: maj = ', '0x5e04366185182c20L')
+('EricS: t1 = ', '0x2cc70e29f65c892b7L')
+('EricS: t2 = ', '0x13e6f99e74b4f89beL')
+('EricS: ch = ', '0xcebacfbeeabb4ff1L')
+('EricS: kpw = ', '0xc19bf174cf6926acL')
+('EricS: k = ', '0xc19bf174cf692694L')
+('EricS: w = ', '0x18')
+
+
+('EricS: a = ', '0xae07c86b1181c75L')
+
+
+
+
+
+
+('EricS: round = ', 16)
+('EricS: s0 = ', '0xb0a5f07506aa17b3L')
+('EricS: s1 = ', '0x34701e539fde1d98L')
+('EricS: maj = ', '0x4aa47ea5a5180c20L')
+('EricS: t1 = ', '0x2cfadab27b1bde164L')
+('EricS: t2 = ', '0xfb4a6f1aabc223d3L')
+('EricS: ch = ', '0x874bff9feaaeaf21L')
+('EricS: kpw = ', '0x145fdcd419ef14ad2L')
+('EricS: k = ', '0xe49b69c19ef14ad2L')
+('EricS: w = ', '0x6162638000000000L')
+
+
+('EricS: a = ', '0xcaf81a425d800537L')
+
+
+
+
+
+
+('EricS: round = ', 17)
+('EricS: s0 = ', '0xcbdb523b32aa5281L')
+('EricS: s1 = ', '0x932257e63ea0de4aL')
+('EricS: maj = ', '0xcaf07ec695800435L')
+('EricS: t1 = ', '0x2b059ed22d2a747b5L')
+('EricS: t2 = ', '0x196cbd101c82a56b6L')
+('EricS: ch = ', '0xa76b7e175bfcd367L')
+('EricS: kpw = ', '0xefc14786384f26a3L')
+('EricS: k = ', '0xefbe4786384f25e3L')
+('EricS: w = ', '0x30000000000c0L')
+
+
+('EricS: a = ', '0x4725be249ad19e6bL')
+
+
+
+
+
+
+('EricS: round = ', 18)
+('EricS: s0 = ', '0xc2982212751cc6bcL')
+('EricS: s1 = ', '0x65beaedf87612151L')
+('EricS: maj = ', '0x4ae03e0699901c77L')
+('EricS: t1 = ', '0x12ed2e0eb07e15ba8L')
+('EricS: t2 = ', '0x10d7860190eace333L')
+('EricS: ch = ', '0x276ffc433dd4c570L')
+('EricS: kpw = ', '0x1a583768d7fcd5b8L')
+('EricS: k = ', '0xfc19dc68b8cd5b5L')
+('EricS: w = ', '0xa9699a24c700003L')
+
+
+('EricS: a = ', '0x3c4b4104168e3edbL')
+
+
+
+
+
+
+('EricS: round = ', 19)
+('EricS: s0 = ', '0x656d7e78bdde5682L')
+('EricS: s1 = ', '0xf5f26f12c080a1c8L')
+('EricS: maj = ', '0x4e691a041e801e7bL')
+('EricS: t1 = ', '0x1e6691c56ae585a09L')
+('EricS: t2 = ', '0xb3d6987cdc5e74fdL')
+('EricS: ch = ', '0x24ee8373b8565478L')
+('EricS: kpw = ', '0x240cadccd7aca268L')
+('EricS: k = ', '0x240ca1cc77ac9c65L')
+('EricS: w = ', '0xc0060000603L')
+
+
+('EricS: a = ', '0x9a3fb4d38ab6cf06L')
+
+
+
+
+
+
+('EricS: round = ', 20)
+('EricS: s0 = ', '0xeed42e360840df65L')
+('EricS: s1 = ', '0xaacbc14f3a3a8ed1L')
+('EricS: maj = ', '0x1e2fb4049a969e4bL')
+('EricS: t1 = ', '0x180c1cc2ab3c5baa5L')
+('EricS: t2 = ', '0x10d03e23aa2d77db0L')
+('EricS: ch = ', '0x257f1bdaad045251L')
+('EricS: kpw = ', '0x8288229592b08c0bL')
+('EricS: k = ', '0x2de92c6f592b0275L')
+('EricS: w = ', '0x549ef62639858996L')
+
+
+('EricS: a = ', '0x8dc5ae65569d3855L')
+
+
+
+
+
+
+('EricS: round = ', 21)
+('EricS: s0 = ', '0xf6d9f13d14300690L')
+('EricS: s1 = ', '0xa60e9ed60e0addb4L')
+('EricS: maj = ', '0x9c4fa445169e3e57L')
+('EricS: t1 = ', '0x2470b40e51276e8e8L')
+('EricS: t2 = ', '0x1932995822ace44e7L')
+('EricS: ch = ', '0x614999dd9dc0765cL')
+('EricS: kpw = ', '0x4b3484dd6ea72083L')
+('EricS: k = ', '0x4a7484aa6ea6e483L')
+('EricS: w = ', '0xc0003300003c00L')
+
+
+('EricS: a = ', '0xda34d6673d452dcfL')
+
+
+
+
+
+
+('EricS: round = ', 22)
+('EricS: s0 = ', '0xd5791dd5ca743a46L')
+('EricS: s1 = ', '0xb84c7f0c6a23c60fL')
+('EricS: maj = ', '0x9a35b6671e952d47L')
+('EricS: t1 = ', '0x1ce777019926732ebL')
+('EricS: t2 = ', '0x16faed43ce909678dL')
+('EricS: ch = ', '0x7b79e6dd5370f77cL')
+('EricS: kpw = ', '0x7147aa5747509990L')
+('EricS: k = ', '0x5cb0a9dcbd41fbd4L')
+('EricS: w = ', '0x1497007a8a0e9dbcL')
+
+
+('EricS: a = ', '0x3e2644567b709a78L')
+
+
+
+
+
+
+('EricS: round = ', 23)
+('EricS: s0 = ', '0x852360291d9198faL')
+('EricS: s1 = ', '0x15bdd3028b34a8b0L')
+('EricS: maj = ', '0x9e24c6677f55385dL')
+('EricS: t1 = ', '0x22c205124f2fe832dL')
+('EricS: t2 = ', '0x1234826909ce6d157L')
+('EricS: ch = ', '0x4b39f769b9408f5aL')
+('EricS: kpw = ', '0xd9deeddb4f18d4a5L')
+('EricS: k = ', '0x76f988da831153b5L')
+('EricS: w = ', '0x62e56500cc0780f0L')
+
+
+('EricS: a = ', '0x4f6877b58fe55484L')
+
+
+
+
+
+
+('EricS: round = ', 24)
+('EricS: s0 = ', '0xf6b3d7ccedc3b65aL')
+('EricS: s1 = ', '0xe07d32b10f7cd9baL')
+('EricS: maj = ', '0x5e2456773f651cccL')
+('EricS: t1 = ', '0x2462742d2127ad61aL')
+('EricS: t2 = ', '0x154d82e442d28d326L')
+('EricS: ch = ', '0xa50fb19a8fdd542L')
+('EricS: kpw = ', '0x10f9f2e9a48ba6742L')
+('EricS: k = ', '0x983e5152ee66dfabL')
+('EricS: w = ', '0x7760dd475a538797L')
+
+
+('EricS: a = ', '0x9aff71163fa3a940L')
+
+
+
+
+
+
+('EricS: round = ', 25)
+('EricS: s0 = ', '0x59ad390b087d33c4L')
+('EricS: s1 = ', '0xa190374fcf79885eL')
+('EricS: maj = ', '0x1e6e75163fe19840L')
+('EricS: t1 = ', '0x393aa4970b087b567L')
+('EricS: t2 = ', '0x781bae21485ecc04L')
+('EricS: ch = ', '0xca620138e9f573a3L')
+('EricS: kpw = ', '0x1998711de49d03213L')
+('EricS: k = ', '0xa831c66d2db43210L')
+('EricS: w = ', '0xf1554b711c1c0003L')
+
+
+('EricS: a = ', '0xbc5f791f8e6816bL')
+
+
+
+
+
+
+('EricS: round = ', 26)
+('EricS: s0 = ', '0xd3a07be8a8b98f14L')
+('EricS: s1 = ', '0x5fe2ca7a239ca3cfL')
+('EricS: maj = ', '0xbed7795bfe78140L')
+('EricS: t1 = ', '0x2a8be48441323e8edL')
+('EricS: t2 = ', '0xdf8df37e68a11054L')
+('EricS: ch = ', '0xc3ec113f79391227L')
+('EricS: kpw = ', '0x17a2cbb6ccd58c131L')
+('EricS: k = ', '0xb00327c898fb213fL')
+('EricS: w = ', '0xca2993a4345d9ff2L')
+
+
+('EricS: a = ', '0x884c3bc27bc4f941L')
+
+
+
+
+
+
+('EricS: round = ', 27)
+('EricS: s0 = ', '0xa64923ba65c02aa0L')
+('EricS: s1 = ', '0x6009a86aa3bfebb1L')
+('EricS: maj = ', '0x8acd73927be6a941L')
+('EricS: t1 = ', '0x2b99e12989574b928L')
+('EricS: t2 = ', '0x13116974ce1a6d3e1L')
+('EricS: ch = ', '0x75cc7db7ed8c8f2eL')
+('EricS: kpw = ', '0x11d67e67d8672ec16L')
+('EricS: k = ', '0xbf597fc7beef0ee4L')
+('EricS: w = ', '0x5e0e66b5c783dd32L')
+
+
+('EricS: a = ', '0xeab4a9e5771b8d09L')
+
+
+
+
+
+
+('EricS: round = ', 28)
+('EricS: s0 = ', '0xe69004c6c232dd7dL')
+('EricS: s1 = ', '0x92c98b5d5daf9f7bL')
+('EricS: maj = ', '0x8ac4bbc17bc68949L')
+('EricS: t1 = ', '0x374ce8880d14e6c44L')
+('EricS: t2 = ', '0x17154c0883df966c6L')
+('EricS: ch = ', '0x64dd9d9bcc94e336L')
+('EricS: kpw = ', '0x1a93a6e503df1db24L')
+('EricS: k = ', '0xc6e00bf33da88fc2L')
+('EricS: w = ', '0xe25a625d00494b62L')
+
+
+('EricS: a = ', '0xe62349090f47d30aL')
+
+
+
+
+
+
+('EricS: round = ', 29)
+('EricS: s0 = ', '0xa5b24bcace700440L')
+('EricS: s1 = ', '0x18f945ce5a3e6108L')
+('EricS: maj = ', '0xea2429c17f47d909L')
+('EricS: t1 = ', '0x2e4e8cb6c1b516f1aL')
+('EricS: t2 = ', '0x18fd6758c4db7dd49L')
+('EricS: ch = ', '0xe9248c0e8e5687e5L')
+('EricS: kpw = ', '0x174ebd9b744efa2f7L')
+('EricS: k = ', '0xd5a79147930aa725L')
+('EricS: w = ', '0x9f44486fb1e4fbd2L')
+
+
+('EricS: a = ', '0x74bf40f869094c63L')
+
+
+
+
+
+
+('EricS: round = ', 30)
+('EricS: s0 = ', '0x7a0487b75032a139L')
+('EricS: s1 = ', '0x413ca568f9bf82b3L')
+('EricS: maj = ', '0xe6b749e96f0bcd0bL')
+('EricS: t1 = ', '0x1eb93ea169fda0562L')
+('EricS: t2 = ', '0x160bbd1a0bf3e6e44L')
+('EricS: ch = ', '0x98cc896317a1dacL')
+('EricS: kpw = ', '0xb9e5ef7ce60be19eL')
+('EricS: k = ', '0x6ca6351e003826fL')
+('EricS: w = ', '0xb31b8c2b06085f2fL')
+
+
+('EricS: a = ', '0x4c4fbbb75f1873a6L')
+
+
+
+
+
+
+('EricS: round = ', 31)
+('EricS: s0 = ', '0x48ff166a1b70caefL')
+('EricS: s1 = ', '0xa9a8dc07cfabd88eL')
+('EricS: maj = ', '0x642f49b94f095322L')
+('EricS: t1 = ', '0x1521edefba2cc8925L')
+('EricS: t2 = ', '0xad2e60236a7a1e11L')
+('EricS: ch = ', '0x7cadd8de1076f185L')
+('EricS: kpw = ', '0x22c19fc79d4fb166L')
+('EricS: k = ', '0x142929670a0e6e70L')
+('EricS: w = ', '0xe987660934142f6L')
+
+
+('EricS: a = ', '0xff4d3f1f0d46a736L')
+
+
+
+
+
+
+('EricS: round = ', 32)
+('EricS: s0 = ', '0x292157ec26fe2449L')
+('EricS: s1 = ', '0x2dbf8871d6a2481eL')
+('EricS: maj = ', '0x7c4f3bbf4d086726L')
+('EricS: t1 = ', '0x1fadffc6a56023d65L')
+('EricS: t2 = ', '0xa57093ab74068b6fL')
+('EricS: ch = ', '0xf0ec42df1d9ff6a3L')
+('EricS: kpw = ', '0xcc66378250cde920L')
+('EricS: k = ', '0x27b70a8546d22ffcL')
+('EricS: w = ', '0xa4af2cfd09fbb924L')
+
+
+('EricS: a = ', '0xa0509015ca08c8d4L')
+
+
+
+
+
+
+('EricS: round = ', 33)
+('EricS: s0 = ', '0xf99aaeee845d8479L')
+('EricS: s1 = ', '0x7c16d945f361cdd8L')
+('EricS: maj = ', '0xec4dbb174f08e3b6L')
+('EricS: t1 = ', '0x27aec7c938b72b7b7L')
+('EricS: t2 = ', '0x1e5e86a05d366682fL')
+('EricS: ch = ', '0x32e320e91bdcfeaeL')
+('EricS: kpw = ', '0xdb43bf6667fbfaacL')
+('EricS: k = ', '0x2e1b21385c26c926L')
+('EricS: w = ', '0xad289e2e0bd53186L')
+
+
+('EricS: a = ', '0x60d4e6995ed91fe6L')
+
+
+
+
+
+
+('EricS: round = ', 34)
+('EricS: s0 = ', '0x889a0ba059baf9feL')
+('EricS: s1 = ', '0xd4973b46143af931L')
+('EricS: maj = ', '0xe054b61d4e488ff6L')
+('EricS: t1 = ', '0x2c36b2ab99b5f9c2dL')
+('EricS: t2 = ', '0x168eec1bda80389f4L')
+('EricS: ch = ', '0xf15305636dc8122eL')
+('EricS: kpw = ', '0x89a0c436fdbd922bL')
+('EricS: k = ', '0x4d2c6dfc5ac42aedL')
+('EricS: w = ', '0x3c74563aa2f9673eL')
+
+
+('EricS: a = ', '0x2c59ec7743632621L')
+
+
+
+
+
+
+('EricS: round = ', 35)
+('EricS: s0 = ', '0x86c6dd6ccd00fb1L')
+('EricS: s1 = ', '0x4c5c102c9d80a0dL')
+('EricS: maj = ', '0x2050e4154a490ee4L')
+('EricS: t1 = ', '0x1f14ac91042e49d97L')
+('EricS: t2 = ', '0x28bd51ec17191e95L')
+('EricS: ch = ', '0xefaba503f57a143eL')
+('EricS: kpw = ', '0xc005da2869aa691eL')
+('EricS: k = ', '0x53380d139d95b3dfL')
+('EricS: w = ', '0x6ccdcd14cc14b53fL')
+
+
+('EricS: a = ', '0x1a081afc59fdbc2cL')
+
+
+
+
+
+
+('EricS: round = ', 36)
+('EricS: s0 = ', '0x711756b2fe37b94fL')
+('EricS: s1 = ', '0xd5acabe4444ed8a3L')
+('EricS: maj = ', '0x2858eefd5bf93e24L')
+('EricS: t1 = ', '0x2ef6f400061b67da1L')
+('EricS: t2 = ', '0x997045b05a30f773L')
+('EricS: ch = ', '0xfbbb5a0f47c04d3L')
+('EricS: kpw = ', '0x129039907c3a18fbcL')
+('EricS: k = ', '0x650a73548baf63deL')
+('EricS: w = ', '0xc3f925b337f22bdeL')
+
+
+('EricS: a = ', '0x88df85b0bbe77514L')
+
+
+
+
+
+
+('EricS: round = ', 37)
+('EricS: s0 = ', '0xf1f942e786de056cL')
+('EricS: s1 = ', '0xc35e82b38e9afbfaL')
+('EricS: maj = ', '0x8598cf45be73424L')
+('EricS: t1 = ', '0x305d8e908ead35bd7L')
+('EricS: t2 = ', '0xfa52cfdbe2c53990L')
+('EricS: ch = ', '0x80982666d06b4dc7L')
+('EricS: kpw = ', '0xd236826297510dfcL')
+('EricS: k = ', '0x766a0abb3c77b2a8L')
+('EricS: w = ', '0x5bcc77a75ad95b54L')
+
+
+('EricS: a = ', '0x2bb8e4cd989567L')
+
+
+
+
+
+
+('EricS: round = ', 38)
+('EricS: s0 = ', '0x237442030cb13704L')
+('EricS: s1 = ', '0x213e152193d2e23dL')
+('EricS: maj = ', '0x80b98f4d9fdb524L')
+('EricS: t1 = ', '0x1883baa4acc8881bdL')
+('EricS: t2 = ', '0x2b7fdaf7e6aeec28L')
+('EricS: ch = ', '0x96bdc00f19af4675L')
+('EricS: kpw = ', '0xc084eea9248e4938L')
+('EricS: k = ', '0x81c2c92e47edaee6L')
+('EricS: w = ', '0x3ec2257adca09a52L')
+
+
+('EricS: a = ', '0xb3bb8542b3376de5L')
+
+
+
+
+
+
+('EricS: round = ', 39)
+('EricS: s0 = ', '0x1add6bf99c31c271L')
+('EricS: s1 = ', '0x178a8aa0d1e2f69fL')
+('EricS: maj = ', '0x80bb85e0bbb77565L')
+('EricS: t1 = ', '0x1f268ef4b606c9a4fL')
+('EricS: t2 = ', '0x9b98f1da57e937d6L')
+('EricS: ch = ', '0x2fafc69629bc63bdL')
+('EricS: kpw = ', '0xba9695e514a1fb26L')
+('EricS: k = ', '0x92722c851482353bL')
+('EricS: w = ', '0x28246960001fc5ebL')
+
+
+('EricS: a = ', '0x8e01e125b855d225L')
+
+
+
+
+
+
+('EricS: round = ', 40)
+('EricS: s0 = ', '0xa038fd75c88269d0L')
+('EricS: s1 = ', '0xefafc7f356093fb6L')
+('EricS: maj = ', '0x822ba164b915d565L')
+('EricS: t1 = ', '0x28db08302e8d3a1f7L')
+('EricS: t2 = ', '0x122649eda81983f35L')
+('EricS: ch = ', '0x669dc7e24bee2fdeL')
+('EricS: kpw = ', '0xa7a323171b1cebeeL')
+('EricS: k = ', '0xa2bfe8a14cf10364L')
+('EricS: w = ', '0x4e33a75ce2be88aL')
+
+
+('EricS: a = ', '0xb01521dd6a6be12cL')
+
+
+
+
+
+
+('EricS: round = ', 41)
+('EricS: s0 = ', '0x46f03d4274377fe2L')
+('EricS: s1 = ', '0xc03cc26fa56933c6L')
+('EricS: maj = ', '0xb211a145ba77e125L')
+('EricS: t1 = ', '0x2f06dab551a1c774aL')
+('EricS: t2 = ', '0xf901de882eaf6107L')
+('EricS: ch = ', '0xa4159e43ab6ab6dfL')
+('EricS: kpw = ', '0x1256d7aff7f9c10e8L')
+('EricS: k = ', '0xa81a664bbc423001L')
+('EricS: w = ', '0x7d5314b3c359e0e7L')
+
+
+('EricS: a = ', '0xe96f89dd48cbd851L')
+
+
+
+
+
+
+('EricS: round = ', 42)
+('EricS: s0 = ', '0x641ee4ba4f71a0b0L')
+('EricS: s1 = ', '0x6d1864c59111ab8bL')
+('EricS: maj = ', '0xa805a1dd684bd025L')
+('EricS: t1 = ', '0x2afe133f62e1653abL')
+('EricS: t2 = ', '0x10c248697b7bd70d5L')
+('EricS: ch = ', '0x1cf00a77bcfb564bL')
+('EricS: kpw = ', '0x171432df6d01da9f7L')
+('EricS: k = ', '0xc24b8b70d0f89791L')
+('EricS: w = ', '0xaef7a285ff251266L')
+
+
+('EricS: a = ', '0xbc05ba8de5d3c480L')
+
+
+
+
+
+
+('EricS: round = ', 43)
+('EricS: s0 = ', '0x3f831ea2ee22cd08L')
+('EricS: s1 = ', '0xea553075029c7338L')
+('EricS: maj = ', '0xb805a9dd68cbc000L')
+('EricS: t1 = ', '0x23e4f1f73c7013ecdL')
+('EricS: t2 = ', '0xf788c88056ee8d08L')
+('EricS: ch = ', '0x749820bbe5b7169bL')
+('EricS: kpw = ', '0xd2f0c3fb24435e7fL')
+('EricS: k = ', '0xc76c51a30654be30L')
+('EricS: w = ', '0xb8472581deea04fL')
+
+
+('EricS: a = ', '0x35d7e7f41defcbd5L')
+
+
+
+
+
+
+('EricS: round = ', 44)
+('EricS: s0 = ', '0x31bc9031ba602973L')
+('EricS: s1 = ', '0xcb4829d83b258a09L')
+('EricS: maj = ', '0xbd47abdd4dcbc8d1L')
+('EricS: t1 = ', '0x2d578614d767caff0L')
+('EricS: t2 = ', '0xef043c0f082bf244L')
+('EricS: ch = ', '0x70986438e1e50c91L')
+('EricS: kpw = ', '0x18307ca88b4b7024bL')
+('EricS: k = ', '0xd192e819d6ef5218L')
+('EricS: w = ', '0xb174e26eddc7b033L')
+
+
+('EricS: a = ', '0xc47c9d5c7ea8a234L')
+
+
+
+
+
+
+('EricS: round = ', 45)
+('EricS: s0 = ', '0x4ddd5a851f5e0baaL')
+('EricS: s1 = ', '0xf545431de223fd59L')
+('EricS: maj = ', '0xb455bfdc7debc294L')
+('EricS: t1 = ', '0x3ffeca07a0e618c88L')
+('EricS: t2 = ', '0x102331a619d49ce3eL')
+('EricS: ch = ', '0xe611381861455090L')
+('EricS: kpw = ', '0x133fcc109e34331eeL')
+('EricS: k = ', '0xd69906245565a910L')
+('EricS: w = ', '0x5d63bae58ddd88deL')
+
+
+('EricS: a = ', '0x21fbadbabab5ac6L')
+
+
+
+
+
+
+('EricS: round = ', 46)
+('EricS: s0 = ', '0xe7082c642d787c79L')
+('EricS: s1 = ', '0xe1fa4995cf3c276bL')
+('EricS: maj = ', '0x45fbfdc3fabcad4L')
+('EricS: t1 = ', '0x30ab67ae627b9e61aL')
+('EricS: t2 = ', '0xeb67ec406d24474dL')
+('EricS: ch = ', '0x850d028a687a103aL')
+('EricS: kpw = ', '0x14012758d0eb5ece5L')
+('EricS: k = ', '0xf40e35855771202aL')
+('EricS: w = ', '0x4c044007b744ccbbL')
+
+
+('EricS: a = ', '0xf61e672694de2d67L')
+
+
+
+
+
+
+('EricS: round = ', 47)
+('EricS: s0 = ', '0xa5fce17c538dd76eL')
+('EricS: s1 = ', '0x7acb6d8a95ee6b4fL')
+('EricS: maj = ', '0xc61ebf5ebeaa2a66L')
+('EricS: t1 = ', '0x2ff4e5b40a24afcd8L')
+('EricS: t2 = ', '0x16c1ba0db123801d4L')
+('EricS: ch = ', '0xc11da25ee56d319cL')
+('EricS: kpw = ', '0xf7144abda7984efbL')
+('EricS: k = ', '0x106aa07032bbd1b8L')
+('EricS: w = ', '0xe6a9aa4d74dc7d43L')
+
+
+('EricS: a = ', '0x6b69fc1bb482feacL')
+
+
+
+
+
+
+('EricS: round = ', 48)
+('EricS: s0 = ', '0x92665090f4936d45L')
+('EricS: s1 = ', '0xaff84b4ca84a3c4L')
+('EricS: maj = ', '0x621ffe1bb48a7ee6L')
+('EricS: t1 = ', '0x26298e390ed95b41cL')
+('EricS: t2 = ', '0xf4864eaca91dec2bL')
+('EricS: ch = ', '0xcc7c2977170dacd8L')
+('EricS: kpw = ', '0x1058fb23a2b1ad264L')
+('EricS: k = ', '0x19a4c116b8d2d0c8L')
+('EricS: w = ', '0xebeaf1237248019cL')
+
+
+('EricS: a = ', '0x571f323d96b3a047L')
+
+
+
+
+
+
+('EricS: round = ', 49)
+('EricS: s0 = ', '0x75bb8b242a9ad132L')
+('EricS: s1 = ', '0xba628ab84b9d6136L')
+('EricS: maj = ', '0x771f763f9492ac67L')
+('EricS: t1 = ', '0x2ddc0d6ff05d78b7fL')
+('EricS: t2 = ', '0xecdb0163bf2d7d99L')
+('EricS: ch = ', '0xe5ac353441bbe88aL')
+('EricS: kpw = ', '0x5455ecbb2150dce6L')
+('EricS: k = ', '0x1e376c085141ab53L')
+('EricS: w = ', '0x361e80b2d00f3193L')
+
+
+('EricS: a = ', '0xca9bd862c5050918L')
+
+
+
+
+
+
+('EricS: round = ', 50)
+('EricS: s0 = ', '0x249bd9d8aa8e4784L')
+('EricS: s1 = ', '0xcddec90941f39a23L')
+('EricS: maj = ', '0x4b1bf83b9483a80cL')
+('EricS: t1 = ', '0x2118271c8ed3e30b3L')
+('EricS: t2 = ', '0x6fb7d2143f11ef90L')
+('EricS: ch = ', '0x2706c2ec603a4ee8L')
+('EricS: kpw = ', '0x55e0b05f3d829d0eL')
+('EricS: k = ', '0x2748774cdf8eeb99L')
+('EricS: w = ', '0x2e9839125df3b175L')
+
+
+('EricS: a = ', '0x813a43dd2c502043L')
+
+
+
+
+
+
+('EricS: round = ', 51)
+('EricS: s0 = ', '0x344eac6874e8d9a2L')
+('EricS: s1 = ', '0x182f91445886389aL')
+('EricS: maj = ', '0xc31b527d84112043L')
+('EricS: t1 = ', '0xdcd5848c7a2be392L')
+('EricS: t2 = ', '0xf769fee5f8f9f9e5L')
+('EricS: ch = ', '0x27b590caec224640L')
+('EricS: kpw = ', '0x67ca1f4875489c0bL')
+('EricS: k = ', '0x34b0bcb5e19b48a8L')
+('EricS: w = ', '0x3319629293ad5363L')
+
+
+('EricS: a = ', '0xd43f83727325dd77L')
+
+
+
+
+
+
+('EricS: round = ', 52)
+('EricS: s0 = ', '0x4a72eb9a595fa8fdL')
+('EricS: s1 = ', '0x6461e580fdaeaed0L')
+('EricS: maj = ', '0xc03bc37265050953L')
+('EricS: t1 = ', '0x1f93062a66ede2fb3L')
+('EricS: t2 = ', '0x10aaeaf0cbe64b250L')
+('EricS: ch = ', '0x97e091fa930c465bL')
+('EricS: kpw = ', '0xd5d86a3d71e4e438L')
+('EricS: k = ', '0x391c0cb3c5c95a63L')
+('EricS: w = ', '0x9cbc5d89ac1b89d5L')
+
+
+('EricS: a = ', '0x3df11b32d42e203L')
+
+
+
+
+
+
+('EricS: round = ', 53)
+('EricS: s0 = ', '0x79241d74fb01617dL')
+('EricS: s1 = ', '0x3e151dca4b8130e9L')
+('EricS: maj = ', '0x813f03f32d40e043L')
+('EricS: t1 = ', '0x1dbdc469b559cc4eaL')
+('EricS: t2 = ', '0xfa632168284241c0L')
+('EricS: ch = ', '0x47afc8ab868cd23aL')
+('EricS: kpw = ', '0x7636ce4ad20bdb82L')
+('EricS: k = ', '0x4ed8aa4ae3418acbL')
+('EricS: w = ', '0x275e23ffeeca50b7L')
+
+
+('EricS: a = ', '0xd63f68037ddf06aaL')
+
+
+
+
+
+
+('EricS: round = ', 54)
+('EricS: s0 = ', '0x47c150a83d524e7L')
+('EricS: s1 = ', '0x348760997d14d020L')
+('EricS: maj = ', '0xd63f01337d47c623L')
+('EricS: t1 = ', '0x11b956f3d5a8eef43L')
+('EricS: t2 = ', '0xdabb163e011ceb0aL')
+('EricS: ch = ', '0x484f94e4248fee3eL')
+('EricS: kpw = ', '0x971da0d036cdd2cbL')
+('EricS: k = ', '0x5b9cca4f7763e373L')
+('EricS: w = ', '0x3b80d680bf69ef58L')
+
+
+('EricS: a = ', '0xf650857b5babda4dL')
+
+
+
+
+
+
+('EricS: round = ', 55)
+('EricS: s0 = ', '0x9ae005f88370d7e1L')
+('EricS: s1 = ', '0x70b8bb8ae3e2dd12L')
+('EricS: maj = ', '0xd65f01337dcbc20bL')
+('EricS: t1 = ', '0x1f27559b8260be792L')
+('EricS: t2 = ', '0x1713f072c013c99ecL')
+('EricS: ch = ', '0xc44816fe0381ce7aL')
+('EricS: kpw = ', '0x753506870ff859c8L')
+('EricS: k = ', '0x682e6ff3d6b2b8a3L')
+('EricS: w = ', '0xd0696933945a125L')
+
+
+('EricS: a = ', '0x63b460e42748817eL')
+
+
+
+
+
+
+('EricS: round = ', 56)
+('EricS: s0 = ', '0xb514a6bb5f6c7ebaL')
+('EricS: s1 = ', '0xf029f39cc70398e5L')
+('EricS: maj = ', '0xf63460637fcb826eL')
+('EricS: t1 = ', '0x2cf098a0a649d29ddL')
+('EricS: t2 = ', '0x1ab49071edf380128L')
+('EricS: ch = ', '0xa4cc93de82910f02L')
+('EricS: kpw = ', '0xe9c36dab1576b1fcL')
+('EricS: k = ', '0x748f82ee5defb2fcL')
+('EricS: w = ', '0x7533eabcb786ff00L')
+
+
+('EricS: a = ', '0x7a52912943d52b05L')
+
+
+
+
+
+
+('EricS: round = ', 57)
+('EricS: s0 = ', '0x3f2050c0f14913fcL')
+('EricS: s1 = ', '0xf3b38f1db87057b5L')
+('EricS: maj = ', '0x7250816943c98b4dL')
+('EricS: t1 = ', '0x39a10f18494644b02L')
+('EricS: t2 = ', '0xb170d22a35129f49L')
+('EricS: ch = ', '0xcea7b92a973f0506L')
+('EricS: kpw = ', '0x1313d8a3e2a132045L')
+('EricS: k = ', '0x78a5636f43172f60L')
+('EricS: w = ', '0xb89826cee6fbf0e5L')
+
+
+('EricS: a = ', '0x4b81c3aec976ea4bL')
+
+
+
+
+
+
+('EricS: round = ', 58)
+('EricS: s0 = ', '0x78a1f3f2fc6b4980L')
+('EricS: s1 = ', '0x56d3fcfda67a65b1L')
+('EricS: maj = ', '0x6b90c1ac4354ab4fL')
+('EricS: t1 = ', '0x273ec1594161ce4e9L')
+('EricS: t2 = ', '0xe432b59f3fbff4cfL')
+('EricS: ch = ', '0xd6e49daa997085a1L')
+('EricS: kpw = ', '0xa963c7d14f52ea11L')
+('EricS: k = ', '0x84c87814a1f0ab72L')
+('EricS: w = ', '0x249b4fbcad623e9fL')
+
+
+('EricS: a = ', '0x581ecb3355dcd9b8L')
+
+
+
+
+
+
+('EricS: round = ', 59)
+('EricS: s0 = ', '0xee111458e75b3c6fL')
+('EricS: s1 = ', '0x54acd622d1cb051dL')
+('EricS: maj = ', '0x5a12c32b41d4eb09L')
+('EricS: t1 = ', '0x2e3e36d00c5ee8514L')
+('EricS: t2 = ', '0x14823d78429302778L')
+('EricS: ch = ', '0xf0d019b8906011e4L')
+('EricS: kpw = ', '0xd7b19ffaca91a90aL')
+('EricS: k = ', '0x8cc702081a6439ecL')
+('EricS: w = ', '0x4aea9df2b02d6f1eL')
+
+
+('EricS: a = ', '0x2c074484ef1eac8cL')
+
+
+
+
+
+
+('EricS: round = ', 60)
+('EricS: s0 = ', '0xc3f35eb8d32d97e6L')
+('EricS: s1 = ', '0x299b14398dc94477L')
+('EricS: maj = ', '0x4807c3a6cd5ee888L')
+('EricS: t1 = ', '0x22c5cbd735bab534cL')
+('EricS: t2 = ', '0x10bfb225fa08c806eL')
+('EricS: ch = ', '0x7254990c7340573eL')
+('EricS: kpw = ', '0xbd84746fc8c1abb7L')
+('EricS: k = ', '0x90befffa23631e28L')
+('EricS: w = ', '0x2cc57475a55e8d8fL')
+
+
+('EricS: a = ', '0x3857dfd2fc37d3baL')
+
+
+
+
+
+
+('EricS: round = ', 61)
+('EricS: s0 = ', '0xd988a0ea7f18a564L')
+('EricS: s1 = ', '0xa89d3329c1060e46L')
+('EricS: maj = ', '0x3817cf92fd1ed9b8L')
+('EricS: t1 = ', '0x2be2d220ed7ed639aL')
+('EricS: t2 = ', '0x111a0707d7c377f1cL')
+('EricS: ch = ', '0x4e97dd87ed488736L')
+('EricS: kpw = ', '0x156a7b7d5175b7c72L')
+('EricS: k = ', '0xa4506cebde82bde9L')
+('EricS: w = ', '0xb2574ae938d8be89L')
+
+
+('EricS: a = ', '0xcfcd928c5424e2b6L')
+
+
+
+
+
+
+('EricS: round = ', 62)
+('EricS: s0 = ', '0x4fef5a0422b5d743L')
+('EricS: s1 = ', '0xfa3dd6f6dd1d3abaL')
+('EricS: maj = ', '0x2c47d684fc36e2beL')
+('EricS: t1 = ', '0x32be6bd32802d2c42L')
+('EricS: t2 = ', '0x7c3730891eecba01L')
+('EricS: ch = ', '0x46bf4cdccd134e53L')
+('EricS: kpw = ', '0x180acfe4f6433e3ffL')
+('EricS: k = ', '0xbef9a3f7b2c67915L')
+('EricS: w = ', '0xc1b35a57b16d6aeaL')
+
+
+('EricS: a = ', '0xa81dedbb9f19e643L')
+
+
+
+
+
+
+('EricS: round = ', 63)
+('EricS: s0 = ', '0x61662e66ec899b0cL')
+('EricS: s1 = ', '0xa47fb415becc2f6eL')
+('EricS: maj = ', '0xa85ddf9adc35e2b2L')
+('EricS: t1 = ', '0x2a180da60ad880fc7L')
+('EricS: t2 = ', '0x109c40e01c8bf7dbeL')
+('EricS: ch = ', '0x22aec6bd89807fe1L')
+('EricS: kpw = ', '0x192ba91a8780459e6L')
+('EricS: k = ', '0xc67178f2e372532bL')
+('EricS: w = ', '0xcc4918b5949206bbL')
+
+
+('EricS: a = ', '0xab44e86276478d85L')
+
+
+
+
+
+
+('EricS: round = ', 64)
+('EricS: s0 = ', '0x3d05b420d5c935efL')
+('EricS: s1 = ', '0x2c95961c55c9d1bcL')
+('EricS: maj = ', '0xab4de8aa5605e687L')
+('EricS: t1 = ', '0x2722cd0b36c52888bL')
+('EricS: t2 = ', '0xe8539ccb2bcf1c76L')
+('EricS: ch = ', '0x8426e97db54245f6L')
+('EricS: kpw = ', '0x11ac1027cc1c5f288L')
+('EricS: k = ', '0xca273eceea26619cL')
+('EricS: w = ', '0x5099c3add79f90ecL')
+
+
+('EricS: a = ', '0x5a806d7e9821a501L')
+
+
+
+
+
+
+('EricS: round = ', 65)
+('EricS: s0 = ', '0xd9227a1ffc13cc6cL')
+('EricS: s1 = ', '0xa533859dcced7a53L')
+('EricS: maj = ', '0xaa04ed7a9e01a501L')
+('EricS: t1 = ', '0x26b925a8115fab42bL')
+('EricS: t2 = ', '0x18327679a9a15716dL')
+('EricS: ch = ', '0x8c8118e59e821dfbL')
+('EricS: kpw = ', '0x1302ed6400926cdf8L')
+('EricS: k = ', '0xd186b8c721c0c207L')
+('EricS: w = ', '0x5ea81d78e7660bf1L')
+
+
+('EricS: a = ', '0xeeb9c21bb0102598L')
+
+
+
+
+
+
+('EricS: round = ', 66)
+('EricS: s0 = ', '0xda6670a3e1ef22b9L')
+('EricS: s1 = ', '0x3889ac633feb5d0fL')
+('EricS: maj = ', '0xea80e87ab001a581L')
+('EricS: t1 = ', '0x381dcc7ec20db4d23L')
+('EricS: t2 = ', '0x1c4e7591e91f0c83aL')
+('EricS: ch = ', '0xee84b2e4fcaa3c53L')
+('EricS: kpw = ', '0x1d6c8e03e0e3badc7L')
+('EricS: k = ', '0xeada7dd6cde0eb1eL')
+('EricS: w = ', '0xebee6267405ac2a9L')
+
+
+('EricS: a = ', '0x46c4210ab2cc155dL')
+
+
+
+
+
+
+('EricS: round = ', 67)
+('EricS: s0 = ', '0x9517c8a9877e90abL')
+('EricS: s1 = ', '0x529ed70dc8e3ed73L')
+('EricS: maj = ', '0x4e80611ab0002519L')
+('EricS: t1 = ', '0x371220c0b1f217e4aL')
+('EricS: t2 = ', '0xe39829c4377eb5c4L')
+('EricS: ch = ', '0xab5ea5056a1f5e61L')
+('EricS: kpw = ', '0x1a59c71124f777623L')
+('EricS: k = ', '0xf57d4f7fee6ed178L')
+('EricS: w = ', '0xb01f21926108a4abL')
+
+
+('EricS: a = ', '0x54ba35cf56a0340eL')
+
+
+
+
+
+
+('EricS: round = ', 68)
+('EricS: s0 = ', '0x21060d8ec224a5edL')
+('EricS: s1 = ', '0x5b0502078b230384L')
+('EricS: maj = ', '0x46b8210bb280351cL')
+('EricS: t1 = ', '0x1b05a0b3b9522bc3fL')
+('EricS: t2 = ', '0x67be2e9a74a4db09L')
+('EricS: ch = ', '0x2b7bbd25ff779766L')
+('EricS: kpw = ', '0x7f549b87a1fdc510L')
+('EricS: k = ', '0x6f067aa72176fbaL')
+('EricS: w = ', '0x786433dd2fe65556L')
+
+
+('EricS: a = ', '0x181839d609c79748L')
+
+
+
+
+
+
+('EricS: round = ', 69)
+('EricS: s0 = ', '0xb21b1e7d17b5a366L')
+('EricS: s1 = ', '0xc0468befdcc3537cL')
+('EricS: maj = ', '0x549831ce12c4154cL')
+('EricS: t1 = ', '0x1f4b75a9aa63ceb95L')
+('EricS: t2 = ', '0x106b3504b2a79b8b2L')
+('EricS: ch = ', '0x2962f52d97f11366L')
+('EricS: kpw = ', '0xcfadec6fc768edd2L')
+('EricS: k = ', '0xa637dc5a2c898a6L')
+('EricS: w = ', '0xc54a6eaa24a0552cL')
+
+
+('EricS: a = ', '0xfb6aaae5d0b6a447L')
+
+
+
+
+
+
+('EricS: round = ', 70)
+('EricS: s0 = ', '0xb4e68026c786d1b1L')
+('EricS: s1 = ', '0x5bd7d390a3057429L')
+('EricS: maj = ', '0x583a39c750a6b44eL')
+('EricS: t1 = ', '0x169320b8bb3336b9dL')
+('EricS: t2 = ', '0x10d20b9ee182d85ffL')
+('EricS: ch = ', '0x1e56f8fb85640bc2L')
+('EricS: kpw = ', '0xc5088957cad4b84cL')
+('EricS: k = ', '0x113f9804bef90daeL')
+('EricS: w = ', '0xb3c8f1530bdbaa9eL')
+
+
+('EricS: a = ', '0x7652c579cb60f19cL')
+
+
+
+
+
+
+('EricS: round = ', 71)
+('EricS: s0 = ', '0x3741e44340544348L')
+('EricS: s1 = ', '0xa8e6ebe5442bf597L')
+('EricS: maj = ', '0x7a5aa9f5c9e6b54cL')
+('EricS: t1 = ', '0x23fc2082ba8453ce1L')
+('EricS: t2 = ', '0xb19c8e390a3af894L')
+('EricS: ch = ', '0xa3785cbe4c4d6128L')
+('EricS: kpw = ', '0xd6fbcb1a8262da53L')
+('EricS: k = ', '0x1b710b35131c471bL')
+('EricS: w = ', '0xbb8abfe56f469338L')
+
+
+('EricS: a = ', '0xf15e9664b2803575L')
+
+
+
+
+
+
+('EricS: round = ', 72)
+('EricS: s0 = ', '0xcdc65a68825c7efeL')
+('EricS: s1 = ', '0x62fac6578f5f7a32L')
+('EricS: maj = ', '0xf35a8665d2a0b555L')
+('EricS: t1 = ', '0x27463260310b1b558L')
+('EricS: t2 = ', '0x1c120e0ce54fd3453L')
+('EricS: ch = ', '0xe7752c9664ed01eaL')
+('EricS: kpw = ', '0x11f18ba5aef20d7fcL')
+('EricS: k = ', '0x28db77f523047d84L')
+('EricS: w = ', '0xf63d4265cc1c5a78L')
+
+
+('EricS: a = ', '0x358406d165aee9abL')
+
+
+
+
+
+
+('EricS: round = ', 73)
+('EricS: s0 = ', '0xa14e7d0ac34a64afL')
+('EricS: s1 = ', '0x8d272e55f8d412d4L')
+('EricS: maj = ', '0x75568671e3a0f1bdL')
+('EricS: t1 = ', '0x309e28a5082e2a489L')
+('EricS: t2 = ', '0x116a5037ca6eb566cL')
+('EricS: ch = ', '0xa7fc3dde7fe7c0faL')
+('EricS: kpw = ', '0xf14e0165b3d9bf8eL')
+('EricS: k = ', '0x32caab7b40c72493L')
+('EricS: w = ', '0xbe8355ea73129afbL')
+
+
+('EricS: a = ', '0x20878dcd29cdfaf5L')
+
+
+
+
+
+
+('EricS: round = ', 74)
+('EricS: s0 = ', '0x4cff4a1aaa1830baL')
+('EricS: s1 = ', '0xea5dd8c3f1967c19L')
+('EricS: maj = ', '0x318686c5218cf9f5L')
+('EricS: t1 = ', '0x2b54ebccbe9acf333L')
+('EricS: t2 = ', '0x7e85d0dfcba52aafL')
+('EricS: ch = ', '0x94791dd8be7d78afL')
+('EricS: kpw = ', '0x86819998d3997d71L')
+('EricS: k = ', '0x3c9ebe0a15c9bebcL')
+('EricS: w = ', '0x49e2db8ebdcfbeb5L')
+
+
+('EricS: a = ', '0x33d48dabb5521de2L')
+
+
+
+
+
+
+('EricS: round = ', 75)
+('EricS: s0 = ', '0xef1ffd6075da50caL')
+('EricS: s1 = ', '0xc8d5e29c0e1269b5L')
+('EricS: maj = ', '0x31848dc925cef9e3L')
+('EricS: t1 = ', '0x2a7f183424cbb6e69L')
+('EricS: t2 = ', '0x120a48b299ba94aadL')
+('EricS: ch = ', '0x855b5d9c1b7948e0L')
+('EricS: kpw = ', '0xc544050f244a4ae5L')
+('EricS: k = ', '0x431d67c49c100d4cL')
+('EricS: w = ', '0x82269d4a883a3d99L')
+
+
+('EricS: a = ', '0xc8960e6be864b916L')
+
+
+
+
+
+
+('EricS: round = ', 76)
+('EricS: s0 = ', '0xab82765b16d44938L')
+('EricS: s1 = ', '0xb4f25ec58fbeeb2cL')
+('EricS: maj = ', '0x20968deba944b9f6L')
+('EricS: t1 = ', '0x29935f5652c1f997bL')
+('EricS: t2 = ', '0xcc190446c019032eL')
+('EricS: ch = ', '0xd0d2414b589e8ceL')
+('EricS: kpw = ', '0x14abb12b1cc5d78e1L')
+('EricS: k = ', '0x4cc5d4becb3e42b6L')
+('EricS: w = ', '0xfdf53df3011f362bL')
+
+
+('EricS: a = ', '0x654ef9abec389ca9L')
+
+
+
+
+
+
+('EricS: round = ', 77)
+('EricS: s0 = ', '0x6f5f9c855f76b927L')
+('EricS: s1 = ', '0xb71a6e081cb0bfb7L')
+('EricS: maj = ', '0x61d68dabec709da2L')
+('EricS: t1 = ', '0x20541dcaa3f2d2faeL')
+('EricS: t2 = ', '0xd1362a314be756c9L')
+('EricS: ch = ', '0xa9101a67b50be7cfL')
+('EricS: kpw = ', '0x9fca1f0419d73f58L')
+('EricS: k = ', '0x597f299cfc657e2aL')
+('EricS: w = ', '0x464af5671d71c12eL')
+
+
+('EricS: a = ', '0xd67806db8b148677L')
+
+
+
+
+
+
+('EricS: round = ', 78)
+('EricS: s0 = ', '0xe49b6fec7db29c03L')
+('EricS: s1 = ', '0x5b9023c2a2d29d67L')
+('EricS: maj = ', '0xc45e0eebe8349c37L')
+('EricS: t1 = ', '0x267e045ebc36e61bcL')
+('EricS: t2 = ', '0x1a8f97ed865e7383aL')
+('EricS: ch = ', '0x9c9979b697ca837eL')
+('EricS: kpw = ', '0x14415262cd3c35c08L')
+('EricS: k = ', '0x5fcb6fab3ad6faecL')
+('EricS: w = ', '0xe449b68198ec611cL')
+
+
+('EricS: a = ', '0x10d9c4c4295599f6L')
+
+
+
+
+
+
+('EricS: round = ', 79)
+('EricS: s0 = ', '0x175e522f658b8efaL')
+('EricS: s1 = ', '0x2a21a801b5f5e758L')
+('EricS: maj = ', '0x5458c4cba9149cf7L')
+('EricS: t1 = ', '0x207ee383e910485c1L')
+('EricS: t2 = ', '0x6bb716fb0ea02bf1L')
+('EricS: ch = ', '0x45896e37e9ceaaa2L')
+('EricS: kpw = ', '0xfef3085df2044fe9L')
+('EricS: k = ', '0x6c44198c4a475817L')
+('EricS: w = ', '0x92aeeed1a7bcf7d2L')
+
+
+('EricS: a = ', '0x73a54f399fa4b1b2L')
+
+
+
+
+
+

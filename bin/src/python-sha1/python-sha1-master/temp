@@ -1,0 +1,1148 @@
+EricS: message =
+53616d706c65206d6573736167652066 6f72206b65796c656e3d626c6f636b6c 656e
+53616d706c65206d6573736167652066 6f72206b65796c656e3d626c6f636b6c 656e8000000000000000000000000000
+
+
+EricS: round =  0
+EricS: a =  0x2f46e336
+EricS: b =  0x62b08d29
+EricS: c =  0xf89e46c5
+EricS: d =  0x27bc1dd8
+EricS: e =  0x4b9c4e31
+
+
+EricS: rotl5 =  0xe8dc66c5
+EricS: f =  0x659c14d1
+EricS: k =  0x5a827999
+EricS: w[i] =  0x53616d70
+
+
+EricS: round =  1
+EricS: a =  0x47f8b0d0
+EricS: b =  0x2f46e336
+EricS: c =  0x58ac234a
+EricS: d =  0xf89e46c5
+EricS: e =  0x27bc1dd8
+
+
+EricS: rotl5 =  0xff161a08
+EricS: f =  0xd89c27c3
+EricS: k =  0x5a827999
+EricS: w[i] =  0x6c65206d
+
+
+EricS: round =  2
+EricS: a =  0xc655f9a9
+EricS: b =  0x47f8b0d0
+EricS: c =  0x8bd1b8cd
+EricS: d =  0x58ac234a
+EricS: e =  0xf89e46c5
+
+
+EricS: rotl5 =  0xcabf3538
+EricS: f =  0x1bd4b3ca
+EricS: k =  0x5a827999
+EricS: w[i] =  0x65737361
+
+
+EricS: round =  3
+EricS: a =  0x9f281cc1
+EricS: b =  0xc655f9a9
+EricS: c =  0x11fe2c34
+EricS: d =  0x8bd1b8cd
+EricS: e =  0x58ac234a
+
+
+EricS: rotl5 =  0xe5039833
+EricS: f =  0x9d42864
+EricS: k =  0x5a827999
+EricS: w[i] =  0x67652066
+
+
+EricS: round =  4
+EricS: a =  0x96b7de0
+EricS: b =  0x9f281cc1
+EricS: c =  0x71957e6a
+EricS: d =  0x11fe2c34
+EricS: e =  0x8bd1b8cd
+
+
+EricS: rotl5 =  0x2d6fbc01
+EricS: f =  0x11d63c74
+EricS: k =  0x5a827999
+EricS: w[i] =  0x6f72206b
+
+
+EricS: round =  5
+EricS: a =  0x950c4b46
+EricS: b =  0x96b7de0
+EricS: c =  0x67ca0730
+EricS: d =  0x71957e6a
+EricS: e =  0x11fe2c34
+
+
+EricS: rotl5 =  0xa18968d2
+EricS: f =  0x71de072a
+EricS: k =  0x5a827999
+EricS: w[i] =  0x65796c65
+
+
+EricS: round =  6
+EricS: a =  0xe561822e
+EricS: b =  0x950c4b46
+EricS: c =  0x25adf78
+EricS: d =  0x67ca0730
+EricS: e =  0x71957e6a
+
+
+EricS: rotl5 =  0xac3045dc
+EricS: f =  0x62ca4f70
+EricS: k =  0x5a827999
+EricS: w[i] =  0x6e3d626c
+
+
+EricS: round =  7
+EricS: a =  0x494fefbb
+EricS: b =  0xe561822e
+EricS: c =  0xa54312d1
+EricS: d =  0x25adf78
+EricS: e =  0x67ca0730
+
+
+EricS: rotl5 =  0x29fdf769
+EricS: f =  0xa75b5f50
+EricS: k =  0x5a827999
+EricS: w[i] =  0x6f636b6c
+
+
+EricS: round =  8
+EricS: a =  0x30942ee
+EricS: b =  0x494fefbb
+EricS: c =  0xb958608b
+EricS: d =  0xa54312d1
+EricS: e =  0x25adf78
+
+
+EricS: rotl5 =  0x61285dc0
+EricS: f =  0xad4870cb
+EricS: k =  0x5a827999
+EricS: w[i] =  0x656e8000
+
+
+EricS: round =  9
+EricS: a =  0xd0bca79c
+EricS: b =  0x30942ee
+EricS: c =  0xd253fbee
+EricS: d =  0xb958608b
+EricS: e =  0xa54312d1
+
+
+EricS: rotl5 =  0x1794f39a
+EricS: f =  0xba5162ef
+EricS: k =  0x5a827999
+EricS: w[i] =  0x0
+
+
+EricS: round =  10
+EricS: a =  0xd1abe2f3
+EricS: b =  0xd0bca79c
+EricS: c =  0x80c250bb
+EricS: d =  0xd253fbee
+EricS: e =  0xb958608b
+
+
+EricS: rotl5 =  0x357c5e7a
+EricS: f =  0x82c358fa
+EricS: k =  0x5a827999
+EricS: w[i] =  0x0
+
+
+EricS: round =  11
+EricS: a =  0xcc1a9198
+EricS: b =  0xd1abe2f3
+EricS: c =  0x342f29e7
+EricS: d =  0x80c250bb
+EricS: e =  0xd253fbee
+
+
+EricS: rotl5 =  0x83523319
+EricS: f =  0x106b30eb
+EricS: k =  0x5a827999
+EricS: w[i] =  0x0
+
+
+EricS: round =  12
+EricS: a =  0xc093d98b
+EricS: b =  0xcc1a9198
+EricS: c =  0xf46af8bc
+EricS: d =  0x342f29e7
+EricS: e =  0x80c250bb
+
+
+EricS: rotl5 =  0x127b3178
+EricS: f =  0xf42fb8ff
+EricS: k =  0x5a827999
+EricS: w[i] =  0x0
+
+
+EricS: round =  13
+EricS: a =  0xe1efb4cb
+EricS: b =  0xc093d98b
+EricS: c =  0x3306a466
+EricS: d =  0xf46af8bc
+EricS: e =  0x342f29e7
+
+
+EricS: rotl5 =  0x3df6997c
+EricS: f =  0x346aa036
+EricS: k =  0x5a827999
+EricS: w[i] =  0x0
+
+
+EricS: round =  14
+EricS: a =  0x112dd32
+EricS: b =  0xe1efb4cb
+EricS: c =  0xf024f662
+EricS: d =  0x3306a466
+EricS: e =  0xf46af8bc
+
+
+EricS: rotl5 =  0x225ba640
+EricS: f =  0xf224b466
+EricS: k =  0x5a827999
+EricS: w[i] =  0x0
+
+
+EricS: round =  15
+EricS: a =  0x636dccfb
+EricS: b =  0x112dd32
+EricS: c =  0xf87bed32
+EricS: d =  0xf024f662
+EricS: e =  0x3306a466
+
+
+EricS: rotl5 =  0x6db99f6c
+EricS: f =  0xf036ef72
+EricS: k =  0x5a827999
+EricS: w[i] =  0x110
+
+
+EricS: round =  16
+EricS: a =  0xeb79aded
+EricS: b =  0x636dccfb
+EricS: c =  0x8044b74c
+EricS: d =  0xf87bed32
+EricS: e =  0xf024f662
+
+
+EricS: rotl5 =  0x6f35bdbd
+EricS: f =  0x9856a548
+EricS: k =  0x5a827999
+EricS: w[i] =  0xa6f93c22
+
+
+EricS: round =  17
+EricS: a =  0xf92d0f22
+EricS: b =  0xeb79aded
+EricS: c =  0xd8db733e
+EricS: d =  0x8044b74c
+EricS: e =  0xf87bed32
+
+
+EricS: rotl5 =  0x25a1e45f
+EricS: f =  0xc85d332c
+EricS: k =  0x5a827999
+EricS: w[i] =  0x16000016
+
+
+EricS: round =  18
+EricS: a =  0x56fd7e6c
+EricS: b =  0xf92d0f22
+EricS: c =  0x7ade6b7b
+EricS: d =  0xd8db733e
+EricS: e =  0x8044b74c
+
+
+EricS: rotl5 =  0xdfafcd8a
+EricS: f =  0x78de7b3e
+EricS: k =  0x5a827999
+EricS: w[i] =  0x1402a434
+
+
+EricS: round =  19
+EricS: a =  0x47581de1
+EricS: b =  0x56fd7e6c
+EricS: c =  0xbe4b43c8
+EricS: d =  0x7ade6b7b
+EricS: e =  0xd8db733e
+
+
+EricS: rotl5 =  0xeb03bc28
+EricS: f =  0x3e4b435b
+EricS: k =  0x5a827999
+EricS: w[i] =  0x49cae043
+
+
+EricS: round =  20
+EricS: a =  0xa677cc9d
+EricS: b =  0x47581de1
+EricS: c =  0x15bf5f9b
+EricS: d =  0xbe4b43c8
+EricS: e =  0x7ade6b7b
+
+
+EricS: rotl5 =  0xcef993b4
+EricS: f =  0xecac01b2
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x2e9e8422
+
+
+EricS: round =  21
+EricS: a =  0xd3fc70a4
+EricS: b =  0xa677cc9d
+EricS: c =  0x51d60778
+EricS: d =  0x15bf5f9b
+EricS: e =  0xbe4b43c8
+
+
+EricS: rotl5 =  0x7f8e149a
+EricS: f =  0xe21e947e
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x3c31467a
+
+
+EricS: round =  22
+EricS: a =  0xcb031efb
+EricS: b =  0xd3fc70a4
+EricS: c =  0x699df327
+EricS: d =  0x51d60778
+EricS: e =  0x15bf5f9b
+
+
+EricS: rotl5 =  0x6063df79
+EricS: f =  0xebb784fb
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x8532045e
+
+
+EricS: round =  23
+EricS: a =  0x55e6b40e
+EricS: b =  0xcb031efb
+EricS: c =  0x34ff1c29
+EricS: d =  0x699df327
+EricS: e =  0x51d60778
+
+
+EricS: rotl5 =  0xbcd681ca
+EricS: f =  0x9661f1f5
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x83fbdcbc
+
+
+EricS: round =  24
+EricS: a =  0x97e44394
+EricS: b =  0x55e6b40e
+EricS: c =  0xf2c0c7be
+EricS: d =  0x34ff1c29
+EricS: e =  0x699df327
+
+
+EricS: rotl5 =  0xfc887292
+EricS: f =  0x93d96f99
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0xff4df4b1
+
+
+EricS: round =  25
+EricS: a =  0x6827b5a4
+EricS: b =  0x97e44394
+EricS: c =  0x9579ad03
+EricS: d =  0xf2c0c7be
+EricS: e =  0x34ff1c29
+
+
+EricS: rotl5 =  0x4f6b48d
+EricS: f =  0xf05d2929
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x26640891
+
+
+EricS: round =  26
+EricS: a =  0xbf90ee11
+EricS: b =  0x6827b5a4
+EricS: c =  0x25f910e5
+EricS: d =  0x9579ad03
+EricS: e =  0xf2c0c7be
+
+
+EricS: rotl5 =  0xf21dc237
+EricS: f =  0xd8a70842
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x2ff2f111
+
+
+EricS: round =  27
+EricS: a =  0x5c526ee9
+EricS: b =  0xbf90ee11
+EricS: c =  0x1a09ed69
+EricS: d =  0x25f910e5
+EricS: e =  0x9579ad03
+
+
+EricS: rotl5 =  0x8a4ddd2b
+EricS: f =  0x8060139d
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x6d0e29e5
+
+
+EricS: round =  28
+EricS: a =  0x7c0fb351
+EricS: b =  0x5c526ee9
+EricS: c =  0x6fe43b84
+EricS: d =  0x1a09ed69
+EricS: e =  0x25f910e5
+
+
+EricS: rotl5 =  0x81f66a2f
+EricS: f =  0x29bfb804
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x11f51966
+
+
+EricS: round =  29
+EricS: a =  0x527e381f
+EricS: b =  0x7c0fb351
+EricS: c =  0x57149bba
+EricS: d =  0x6fe43b84
+EricS: e =  0x1a09ed69
+
+
+EricS: rotl5 =  0x4fc703ea
+EricS: f =  0x44ff136f
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x27876cf6
+
+
+EricS: round =  30
+EricS: a =  0x45315d59
+EricS: b =  0x527e381f
+EricS: c =  0x5f03ecd4
+EricS: d =  0x57149bba
+EricS: e =  0x6fe43b84
+
+
+EricS: rotl5 =  0xa62bab28
+EricS: f =  0x5a694f71
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x9d8a2332
+
+
+EricS: round =  31
+EricS: a =  0x7cdd44f0
+EricS: b =  0x45315d59
+EricS: c =  0xd49f8e07
+EricS: d =  0x5f03ecd4
+EricS: e =  0x57149bba
+
+
+EricS: rotl5 =  0x9ba89e0f
+EricS: f =  0xcead3f8a
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x81d89b9
+
+
+EricS: round =  32
+EricS: a =  0x3861eead
+EricS: b =  0x7cdd44f0
+EricS: c =  0x514c5756
+EricS: d =  0xd49f8e07
+EricS: e =  0x5f03ecd4
+
+
+EricS: rotl5 =  0xc3dd5a7
+EricS: f =  0xf90e9da1
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0xd46200a2
+
+
+EricS: round =  33
+EricS: a =  0xa78c4c5f
+EricS: b =  0x3861eead
+EricS: c =  0x1f37513c
+EricS: d =  0x514c5756
+EricS: e =  0xd49f8e07
+
+
+EricS: rotl5 =  0xf1898bf4
+EricS: f =  0x761ae8c7
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0xc84997ed
+
+
+EricS: round =  34
+EricS: a =  0x73678650
+EricS: b =  0xa78c4c5f
+EricS: c =  0x4e187bab
+EricS: d =  0x1f37513c
+EricS: e =  0x514c5756
+
+
+EricS: rotl5 =  0x6cf0ca0e
+EricS: f =  0xf6a366c8
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x3ae6b17c
+
+
+EricS: round =  35
+EricS: a =  0x5ea12549
+EricS: b =  0x73678650
+EricS: c =  0xe9e31317
+EricS: d =  0x4e187bab
+EricS: e =  0x1f37513c
+
+
+EricS: rotl5 =  0xd424a92b
+EricS: f =  0xd49ceeec
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x992f1efd
+
+
+EricS: round =  36
+EricS: a =  0xd001f3f1
+EricS: b =  0x5ea12549
+EricS: c =  0x1cd9e194
+EricS: d =  0xe9e31317
+EricS: e =  0x4e187bab
+
+
+EricS: rotl5 =  0x3e7e3a
+EricS: f =  0xab9bd7ca
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0xe4201dee
+
+
+EricS: round =  37
+EricS: a =  0x4cecdb3e
+EricS: b =  0xd001f3f1
+EricS: c =  0x57a84952
+EricS: d =  0x1cd9e194
+EricS: e =  0xe9e31317
+
+
+EricS: rotl5 =  0x9d9b67c9
+EricS: f =  0x9b705b37
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x45568e99
+
+
+EricS: round =  38
+EricS: a =  0xd71f5051
+EricS: b =  0x4cecdb3e
+EricS: c =  0x74007cfc
+EricS: d =  0x57a84952
+EricS: e =  0x1cd9e194
+
+
+EricS: rotl5 =  0xe3ea0a3a
+EricS: f =  0x6f44ee90
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0xfdb59a40
+
+
+EricS: round =  39
+EricS: a =  0xdc98603f
+EricS: b =  0xd71f5051
+EricS: c =  0x933b36cf
+EricS: d =  0x74007cfc
+EricS: e =  0x57a84952
+
+
+EricS: rotl5 =  0x930c07fb
+EricS: f =  0x30241a62
+EricS: k =  0x6ed9eba1
+EricS: w[i] =  0x934480f4
+
+
+EricS: round =  40
+EricS: a =  0x1cf6d844
+EricS: b =  0xdc98603f
+EricS: c =  0x75c7d414
+EricS: d =  0x933b36cf
+EricS: e =  0x74007cfc
+
+
+EricS: rotl5 =  0x9edb0883
+EricS: f =  0xd59b741f
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0x83171736
+
+
+EricS: round =  41
+EricS: a =  0xfaa9cdb0
+EricS: b =  0x1cf6d844
+EricS: c =  0xf726180f
+EricS: d =  0x75c7d414
+EricS: e =  0x933b36cf
+
+
+EricS: rotl5 =  0x5539b61f
+EricS: f =  0x75e6d804
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0xfd2c59b2
+
+
+EricS: round =  42
+EricS: a =  0xeaa3db80
+EricS: b =  0xfaa9cdb0
+EricS: c =  0x73db611
+EricS: d =  0xf726180f
+EricS: e =  0x75c7d414
+
+
+EricS: rotl5 =  0x547b701d
+EricS: f =  0xf72d9c11
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0x2f4bb3ff
+
+
+EricS: round =  43
+EricS: a =  0x7fd8511d
+EricS: b =  0xeaa3db80
+EricS: c =  0x3eaa736c
+EricS: d =  0x73db611
+EricS: e =  0xf726180f
+
+
+EricS: rotl5 =  0xfb0a23af
+EricS: f =  0x2eabf300
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0xa16299b0
+
+
+EricS: round =  44
+EricS: a =  0x515a854a
+EricS: b =  0x7fd8511d
+EricS: c =  0x3aa8f6e0
+EricS: d =  0x3eaa736c
+EricS: e =  0x73db611
+
+
+EricS: rotl5 =  0x2b50a94a
+EricS: f =  0x3ea8736c
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0x2ae6fc11
+
+
+EricS: round =  45
+EricS: a =  0x2b398bb4
+EricS: b =  0x515a854a
+EricS: c =  0x5ff61447
+EricS: d =  0x3aa8f6e0
+EricS: e =  0x3eaa736c
+
+
+EricS: rotl5 =  0x67317685
+EricS: f =  0x5bfa9442
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0x8b0fb052
+
+
+EricS: round =  46
+EricS: a =  0x1c01eb61
+EricS: b =  0x2b398bb4
+EricS: c =  0x9456a152
+EricS: d =  0x5ff61447
+EricS: e =  0x3aa8f6e0
+
+
+EricS: rotl5 =  0x803d6c23
+EricS: f =  0x1f768156
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0x2a7e40c0
+
+
+EricS: round =  47
+EricS: a =  0x93f6e1f5
+EricS: b =  0x1c01eb61
+EricS: c =  0xace62ed
+EricS: d =  0x9456a152
+EricS: e =  0x5ff61447
+
+
+EricS: rotl5 =  0x7edc3eb2
+EricS: f =  0x1c46e361
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0xf3ecc562
+
+
+EricS: round =  48
+EricS: a =  0x7e21b898
+EricS: b =  0x93f6e1f5
+EricS: c =  0x47007ad8
+EricS: d =  0xace62ed
+EricS: e =  0x9456a152
+
+
+EricS: rotl5 =  0xc437130f
+EricS: f =  0x3c662fd
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0xcd382d75
+
+
+EricS: round =  49
+EricS: a =  0xb8a801af
+EricS: b =  0x7e21b898
+EricS: c =  0x64fdb87d
+EricS: d =  0x47007ad8
+EricS: e =  0xace62ed
+
+
+EricS: rotl5 =  0x150035f7
+EricS: f =  0x6621b8d8
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0xc6920c5
+
+
+EricS: round =  50
+EricS: a =  0x21752f5d
+EricS: b =  0xb8a801af
+EricS: c =  0x1f886e26
+EricS: d =  0x64fdb87d
+EricS: e =  0x47007ad8
+
+
+EricS: rotl5 =  0x2ea5eba4
+EricS: f =  0x3ca8282f
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0x4c3b41e
+
+
+EricS: round =  51
+EricS: a =  0x462dffa5
+EricS: b =  0x21752f5d
+EricS: c =  0xee2a006b
+EricS: d =  0x1f886e26
+EricS: e =  0x64fdb87d
+
+
+EricS: rotl5 =  0xc5bff4a8
+EricS: f =  0x2f282e6f
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0x60464943
+
+
+EricS: round =  52
+EricS: a =  0x4947e1b3
+EricS: b =  0x462dffa5
+EricS: c =  0x485d4bd7
+EricS: d =  0xee2a006b
+EricS: e =  0x1f886e26
+
+
+EricS: rotl5 =  0x28fc3669
+EricS: f =  0x4e2d4be7
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0x7e34b6f4
+
+
+EricS: round =  53
+EricS: a =  0xa4026446
+EricS: b =  0x4947e1b3
+EricS: c =  0x518b7fe9
+EricS: d =  0x485d4bd7
+EricS: e =  0xee2a006b
+
+
+EricS: rotl5 =  0x804c88d4
+EricS: f =  0x494f6bf3
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0xb3bc1442
+
+
+EricS: round =  54
+EricS: a =  0xfa9dc650
+EricS: b =  0xa4026446
+EricS: c =  0xd251f86c
+EricS: d =  0x518b7fe9
+EricS: e =  0x485d4bd7
+
+
+EricS: rotl5 =  0x53b8ca1f
+EricS: f =  0xd0037c6c
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0x693509ea
+
+
+EricS: round =  55
+EricS: a =  0x646a5928
+EricS: b =  0xfa9dc650
+EricS: c =  0xa9009911
+EricS: d =  0xd251f86c
+EricS: e =  0x518b7fe9
+
+
+EricS: rotl5 =  0x8d4b250c
+EricS: f =  0xfa11d850
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0xc76155a1
+
+
+EricS: round =  56
+EricS: a =  0x2f658fc2
+EricS: b =  0x646a5928
+EricS: c =  0x3ea77194
+EricS: d =  0xa9009911
+EricS: e =  0xd251f86c
+
+
+EricS: rotl5 =  0xecb1f845
+EricS: f =  0x2c225910
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0xa5b13bfd
+
+
+EricS: round =  57
+EricS: a =  0x1ff3429a
+EricS: b =  0x2f658fc2
+EricS: c =  0x191a964a
+EricS: d =  0x3ea77194
+EricS: e =  0xa9009911
+
+
+EricS: rotl5 =  0xfe685343
+EricS: f =  0x3f2797c2
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0x7225d25a
+
+
+EricS: round =  58
+EricS: a =  0xe7d2134c
+EricS: b =  0x1ff3429a
+EricS: c =  0x8bd963f0
+EricS: d =  0x191a964a
+EricS: e =  0x3ea77194
+
+
+EricS: rotl5 =  0xfa42699c
+EricS: f =  0x1bdb42da
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0x8c1f5ca3
+
+
+EricS: round =  59
+EricS: a =  0x70003789
+EricS: b =  0xe7d2134c
+EricS: c =  0x87fcd0a6
+EricS: d =  0x8bd963f0
+EricS: e =  0x191a964a
+
+
+EricS: rotl5 =  0x6f12e
+EricS: f =  0x87d853e4
+EricS: k =  0x8f1bbcdc
+EricS: w[i] =  0xdf34b6b9
+
+
+EricS: round =  60
+EricS: a =  0xf4a4ef1
+EricS: b =  0x70003789
+EricS: c =  0x39f484d3
+EricS: d =  0x87fcd0a6
+EricS: e =  0x8bd963f0
+
+
+EricS: rotl5 =  0xe949de21
+EricS: f =  0xce0863fc
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x1913b0fe
+
+
+EricS: round =  61
+EricS: a =  0x26a218e1
+EricS: b =  0xf4a4ef1
+EricS: c =  0x5c000de2
+EricS: d =  0x39f484d3
+EricS: e =  0x87fcd0a6
+
+
+EricS: rotl5 =  0xd4431c24
+EricS: f =  0x6abec7c0
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x8e807ba2
+
+
+EricS: round =  62
+EricS: a =  0x1fe1f202
+EricS: b =  0x26a218e1
+EricS: c =  0x43d293bc
+EricS: d =  0x5c000de2
+EricS: e =  0x39f484d3
+
+
+EricS: rotl5 =  0xfc3e4043
+EricS: f =  0x397086bf
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0xa28fa5cc
+
+
+EricS: round =  63
+EricS: a =  0xdc95b377
+EricS: b =  0x1fe1f202
+EricS: c =  0x49a88638
+EricS: d =  0x43d293bc
+EricS: e =  0x5c000de2
+
+
+EricS: rotl5 =  0x92b66efb
+EricS: f =  0x159be786
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x43ee01f0
+
+
+EricS: round =  64
+EricS: a =  0x12a32829
+EricS: b =  0xdc95b377
+EricS: c =  0x87f87c80
+EricS: d =  0x49a88638
+EricS: e =  0x43d293bc
+
+
+EricS: rotl5 =  0x54650522
+EricS: f =  0x12c549cf
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0xc595b269
+
+
+EricS: round =  65
+EricS: a =  0x3af556ec
+EricS: b =  0x12a32829
+EricS: c =  0xf7256cdd
+EricS: d =  0x87f87c80
+EricS: e =  0x49a88638
+
+
+EricS: rotl5 =  0x5eaadd87
+EricS: f =  0x627e3874
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x790a3c21
+
+
+EricS: round =  66
+EricS: a =  0x4e3e9a2a
+EricS: b =  0x3af556ec
+EricS: c =  0x44a8ca0a
+EricS: d =  0xf7256cdd
+EricS: e =  0x87f87c80
+
+
+EricS: rotl5 =  0xc7d34549
+EricS: f =  0x8978f03b
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x6a0cbf73
+
+
+EricS: round =  67
+EricS: a =  0xdb4334d
+EricS: b =  0x4e3e9a2a
+EricS: c =  0xebd55bb
+EricS: d =  0x44a8ca0a
+EricS: e =  0xf7256cdd
+
+
+EricS: rotl5 =  0xb68669a1
+EricS: f =  0x42b059b
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x92b6b3a3
+
+
+EricS: round =  68
+EricS: a =  0xef05192
+EricS: b =  0xdb4334d
+EricS: c =  0x938fa68a
+EricS: d =  0xebd55bb
+EricS: e =  0x44a8ca0a
+
+
+EricS: rotl5 =  0xde0a3241
+EricS: f =  0x9086c07c
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0xee306782
+
+
+EricS: round =  69
+EricS: a =  0x6bcce61f
+EricS: b =  0xef05192
+EricS: c =  0x436d0cd3
+EricS: d =  0x938fa68a
+EricS: e =  0xebd55bb
+
+
+EricS: rotl5 =  0x799cc3ed
+EricS: f =  0xde12fbcb
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x20a30a65
+
+
+EricS: round =  70
+EricS: a =  0x5172e1ae
+EricS: b =  0x6bcce61f
+EricS: c =  0x83bc1464
+EricS: d =  0x436d0cd3
+EricS: e =  0x938fa68a
+
+
+EricS: rotl5 =  0x2e5c35ca
+EricS: f =  0xab1dfea8
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0xf97a48f1
+
+
+EricS: round =  71
+EricS: a =  0x30e6e5c3
+EricS: b =  0x5172e1ae
+EricS: c =  0xdaf33987
+EricS: d =  0x83bc1464
+EricS: e =  0x436d0cd3
+
+
+EricS: rotl5 =  0x1cdcb866
+EricS: f =  0x83dcc4d
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x3135c312
+
+
+EricS: round =  72
+EricS: a =  0x6420166e
+EricS: b =  0x30e6e5c3
+EricS: c =  0x945cb86b
+EricS: d =  0xdaf33987
+EricS: e =  0x83bc1464
+
+
+EricS: rotl5 =  0x8402cdcc
+EricS: f =  0x7e49642f
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x9931bea5
+
+
+EricS: round =  73
+EricS: a =  0xe99cc6da
+EricS: b =  0x6420166e
+EricS: c =  0xcc39b970
+EricS: d =  0x945cb86b
+EricS: e =  0xdaf33987
+
+
+EricS: rotl5 =  0x3398db5d
+EricS: f =  0x3c451775
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x5ac22066
+
+
+EricS: round =  74
+EricS: a =  0x6ff60e95
+EricS: b =  0xe99cc6da
+EricS: c =  0x9908059b
+EricS: d =  0xcc39b970
+EricS: e =  0x945cb86b
+
+
+EricS: rotl5 =  0xfec1d2ad
+EricS: f =  0xbcad7a31
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x9c6b2079
+
+
+EricS: round =  75
+EricS: a =  0xb699e798
+EricS: b =  0x6ff60e95
+EricS: c =  0xba6731b6
+EricS: d =  0x9908059b
+EricS: e =  0xcc39b970
+
+
+EricS: rotl5 =  0xd33cf316
+EricS: f =  0x4c993ab8
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0xb467803a
+
+
+EricS: round =  76
+EricS: a =  0x6ada294e
+EricS: b =  0xb699e798
+EricS: c =  0x5bfd83a5
+EricS: d =  0xba6731b6
+EricS: e =  0x9908059b
+
+
+EricS: rotl5 =  0x5b4529cd
+EricS: f =  0x5703558b
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x1edca5ac
+
+
+EricS: round =  77
+EricS: a =  0x348fec75
+EricS: b =  0x6ada294e
+EricS: c =  0x2da679e6
+EricS: d =  0x5bfd83a5
+EricS: e =  0xba6731b6
+
+
+EricS: rotl5 =  0x91fd8ea6
+EricS: f =  0x1c81d30d
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0xe34ca09c
+
+
+EricS: round =  78
+EricS: a =  0x1695f5db
+EricS: b =  0x348fec75
+EricS: c =  0x9ab68a53
+EricS: d =  0x2da679e6
+EricS: e =  0x5bfd83a5
+
+
+EricS: rotl5 =  0xd2bebb62
+EricS: f =  0x839f1fc0
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x540fbedc
+
+
+EricS: round =  79
+EricS: a =  0xd0cddf79
+EricS: b =  0x1695f5db
+EricS: c =  0x4d23fb1d
+EricS: d =  0x9ab68a53
+EricS: e =  0x2da679e6
+
+
+EricS: rotl5 =  0x19bbef3a
+EricS: f =  0xc1008495
+EricS: k =  0xca62c1d6
+EricS: w[i] =  0x2a1ab6de
+
+
+EricS: round = final
+EricS: a =  0xfce06669
+EricS: b =  0xd0cddf79
+EricS: c =  0xc5a57d76
+EricS: d =  0x4d23fb1d
+EricS: e =  0x9ab68a53
+
+
+EricS: h0 =  0x2f46e336
+EricS: h1 =  0x62b08d29
+EricS: h2 =  0xf89e46c5
+EricS: h3 =  0x27bc1dd8
+EricS: h4 =  0x4b9c4e31
+
+
+EricS: h0 =  0x2c27499f
+EricS: h1 =  0x337e6ca2
+EricS: h2 =  0xbe43c43b
+EricS: h3 =  0x74e018f5
+EricS: h4 =  0xe652d884
+
+
+sha1-digest: 2c27499f337e6ca2be43c43b74e018f5e652d884

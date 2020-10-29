@@ -1,0 +1,3 @@
+#!/bin/sh
+/usr/bin/xemacs $* &
+#/tools/bin/xemacs $* &

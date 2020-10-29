@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/project-fe/users/mbalan/EMU_CSR2_JULY3/s1/ver/s1_avip_emul/tests'
+let g:netrw_dirhist_2='/project-fe/users/mbalan/EMU_CSR2_JULY3/s1/ver/s1_avip_emul'
+let g:netrw_dirhist_3='/project-fe/users/mbalan/EMU_CSR2_JULY3/s1/ver/s1_avip_emul/tests'
+let g:netrw_dirhist_4='/project-emu/users/rchopra/S1_hw/rel_07032019/build/s1/s1_avip_emul_dut_cut/emu_s1_avip_emul_cut'
+let g:netrw_dirhist_5='/project/users/erics/work/emul_0/s1/ver/s1_avip_emul/RUN/tcl'
+let g:netrw_dirhist_6='/project-emu/users/rchopra/S1_hw/rel_09172019/build/s1/gen_avip_dut_cut'
+let g:netrw_dirhist_7='/project/users/erics/work/emul_1/s1/ver/s1_avip_emul/RUN/tcl'

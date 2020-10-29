@@ -1,0 +1,53 @@
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+alias sublime="/home/erics/bin/bgsublime"
+alias subl="/home/erics/bin/bgsublime"
+alias emacs="/home/erics/bin/bgemacs"
+alias xemacs="/home/erics/bin/bgxemacs"
+alias xterm="gnome-terminal"
+
+alias vncs="/home/erics/bin/tigervnc-1.8.0.x86_64/usr/bin/vncserver -depth 24 -geometry 3400x1400"
+alias vnck="/home/erics/bin/tigervnc-1.8.0.x86_64/usr/bin/vncserver -kill"
+alias vncserver="/home/erics/bin/tigervnc-1.8.0.x86_64/usr/bin/vncserver"
+alias vnccfg="/home/erics/bin/tigervnc-1.8.0.x86_64/usr/bin/vncconfig -nowin -poll 1000"
+
+alias ll="ls -AlgFrt"
+alias psmy='ps -auxw | grep erics | egrep -v "bash|xterm|fvwm"'
+alias simv="./simv -q"
+
+alias cdw='cd /project/users/erics/work'
+alias simlog='emacs sim/last.log'
+alias seclog='emacs $ROOT_DIR/ver/sec/sim/last.log'
+
+
+alias build_sec="runv -unit sectb -bld"
+alias runv_sec="runv -unit sectb -bld -run"
+alias runvd_sec="runv -unit sectb -bld -run -wav -gui"
+alias runv_sec_def="runv -unit sectb -bld -run +uvm_set_type_override=sec_virtual_base_sequence,sec_virtual_sanity_sequence"
+alias runvd_sec_def="runv -unit sectb -bld -run -wav -gui +uvm_set_type_override=sec_virtual_base_sequence,sec_virtual_sanity_sequence"
+alias runvw_sec_def="runv -unit sectb -bld -run -wav +uvm_set_type_override=sec_virtual_base_sequence,sec_virtual_sanity_sequence"
+
+alias build_sec0="runv -unit sec0tb -bld"
+alias runv_sec0="runv -unit sec0tb -bld -run"
+alias runvd_sec0="runv -unit sec0tb -bld -run -wav -gui"
+alias runv_sec0_def="runv -unit sec0tb -bld -run +uvm_set_type_override=sec_virtual_base_sequence,sec_virtual_sanity_sequence"
+alias runvd_sec0_def="runv -unit sec0tb -bld -run -wav -gui +uvm_set_type_override=sec_virtual_base_sequence,sec_virtual_sanity_sequence"
+alias runvw_sec0_def="runv -unit sec0tb -bld -run -wav +uvm_set_type_override=sec_virtual_base_sequence,sec_virtual_sanity_sequence"
+
+alias build_dfa="runv -unit dfatb -bld"
+alias runv_dfa="runv -unit dfatb -bld -run"
+alias runvd_dfa="runv -unit dfatb -bld -run -wav -gui"
+alias runv_dfa_def="runv -unit dfatb -bld -run +uvm_set_type_override=dfa_virtual_base_sequence,dfa_virtual_sanity_sequence"
+alias runvd_dfa_def="runv -unit dfatb -bld -run -wav -gui +uvm_set_type_override=dfa_virtual_base_sequence,dfa_virtual_sanity_sequence"
+alias runvw_dfa_def="runv -unit dfatb -bld -run -wav  +uvm_set_type_override=dfa_virtual_base_sequence,dfa_virtual_sanity_sequence"
+
+alias svn_new="svn checkout file:///project/svnrep/rep/trunk"
+alias svn_unknown='svn st . | grep "^?" | cut -f8 -d" "'
+alias svn_mod='svn st . | grep -v "^?" | cut -f8 -d" "'
+alias svn_push="svn diff --diff-cmd /usr/bin/diff > ~/mypatch"
+alias svn_pull="patch -p0 -i ~/mypatch"
+
+alias find_dup_mod='egrep "^ *module|^ *entity" * -h -r | sed -e '"'"'s/\s*entity\s\+\([a-zA-Z0-9_]*\)\s\+.*/\1/g'"'"' | sed -e '"'"'s/\s*module\s\+\([a-zA-Z0-9_]*\).*/\1/g'"'"' | sort | uniq --count | egrep -v "^ *1 " | sort -rn'
+
+
+

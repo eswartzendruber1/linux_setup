@@ -1,0 +1,349 @@
+#!/usr/bin/perl -w
+
+sub bits_in_count($)
+{ 
+  my $num = $_[0];
+  my $cnt = 0;
+  $cnt++ while ($num >> $cnt);
+  return $cnt;
+}
+
+sub bits_in_number($)
+{
+  my $num = $_[0];
+  if($num > 1){
+      return bits_in_count($num-1);
+  }
+  else{
+      return bits_in_count($num);
+  }
+}
+
+
+%sbp_roms = (
+    pka_pke_rom => {
+        WIDTH        => 40,
+        SIZE         => 1024,
+        BLKLST       => [
+            {
+                SIZE         => 1024,
+                LANELST      => [
+                    {
+                        NAME       => "L0",
+                        WIDTH      => 42,
+                        ROMLST     => [
+                            {
+                                NAME         => "RR16FFGL_VROM512X42M8B4E1P0L20",
+                                SIZE         => 512,
+                                NUM          => -1, 
+                            },
+                            ],
+                    },
+                    ],
+            },
+            ],
+    },
+    puf_pke_rom => {
+        WIDTH        => 40,
+        SIZE         => 512,
+        BLKLST       => [
+            {
+                SIZE         => 512,
+                LANELST      => [
+                    {
+                        NAME       => "L0",
+                        WIDTH      => 42,
+                        ROMLST     => [
+                            {
+                                NAME         => "RR16FFGL_VROM512X42M8B4E1P0L20",
+                                SIZE         => 512,
+                                NUM          => -1, 
+                            },
+                            ],
+                    },
+                    ],
+            },
+            ],
+    },
+    sbp_sys_rom => {
+        WIDTH         => 32,
+        SIZE         => 4928,
+        BLKLST       => [
+            {
+                SIZE         => 8192,
+                LANELST       => [
+                    {
+                        NAME       => "L0",
+                        WIDTH      => 32,
+                        ROMLST     => [
+                            {
+                                NAME         => "RR16FFGL_VROM8192X32M16B4E1P0L20",
+                                SIZE         => 8192,
+                                NUM          => -1, 
+                            },
+                            ],
+                    },
+                    ],
+            },
+            ],
+    },
+    
+    );
+
+
+#%sbp_roms = (
+#    pka_pke_rom => {
+#        WIDTH        => 18,
+#        SIZE         => 2048,
+#        BLKLST       => [
+#            {
+#                SIZE         => 2048,
+#                LANELST      => [
+#                    {
+#                        NAME       => "BLOCK_LSB",
+#                        WIDTH      => 9,
+#                        ROMLST     => [
+#                            {
+#                                NAME         => "RR16FFGL_VROM256X9M8B2E1P0L20",
+#                                SIZE         => 256,
+#                                NUM          => -1, 
+#                            },
+#                            ],
+#                    },
+#                    {
+#                        NAME       => "BLOCK_MSB",
+#                        WIDTH      => 9,
+#                        ROMLST     => [
+#                            {
+#                                NAME         => "RR16FFGL_VROM256X9M8B2E1P0L20",
+#                                SIZE         => 256,
+#                                NUM          => -1, 
+#                            },
+#                            ],
+#                    },
+#                    ],
+#            },
+#            ],
+#    },
+#    puf_pke_rom => {
+#        WIDTH        => 18,
+#        SIZE         => 768,
+#        BLKLST       => [
+#            {
+#                SIZE         => 768,
+#                LANELST      => [
+#                    {
+#                        NAME       => "BLOCK_LSB",
+#                        WIDTH      => 9,
+#                        ROMLST     => [
+#                            {
+#                                NAME         => "RR16FFGL_VROM256X9M8B2E1P0L20",
+#                                SIZE         => 256,
+#                                NUM          => -1, 
+#                            },
+#                            ],
+#                    },
+#                    {
+#                        NAME       => "BLOCK_MSB",
+#                        WIDTH      => 9,
+#                        ROMLST     => [
+#                            {
+#                                NAME         => "RR16FFGL_VROM256X9M8B2E1P0L20",
+#                                SIZE         => 256,
+#                                NUM          => -1, 
+#                            },
+#                            ],
+#                    },
+#                    ],
+#            },
+#            ],
+#    },
+#    sbp_sys_rom => {
+#        WIDTH         => 32,
+#        SIZE         => 4928,
+#        BLKLST       => [
+#            {
+#                SIZE         => 4096,
+#                LANELST       => [
+#                    {
+#                        NAME       => "L0",
+#                        WIDTH      => 14,
+#                        ROMLST     => [
+#                            {
+#                                NAME         => "RR16FFGL_VROM4096X14M8B4E1P0L20",
+#                                SIZE         => 4096,
+#                                NUM          => 1, 
+#                            },
+#                            ],
+#                    },
+#                    {
+#                        NAME       => "L1",
+#                        WIDTH      => 14,
+#                        ROMLST     => [
+#                            {
+#                                NAME         => "RR16FFGL_VROM4096X14M8B4E1P0L20",
+#                                SIZE         => 4096,
+#                                NUM          => 1, 
+#                            },
+#                            ],
+#                    },
+#                    {
+#                        NAME       => "L2",
+#                        WIDTH      => 14,
+#                        ROMLST     => [
+#                            {
+#                                NAME         => "RR16FFGL_VROM4096X14M8B4E1P0L20",
+#                                SIZE         => 4096,
+#                                NUM          => 1, 
+#                            },
+#                            ],
+#                    },
+#                    ],
+#            },
+#            {
+#                SIZE         => 1024,
+#                LANELST       => [
+#                    {
+#                        NAME       => "L0",
+#                        WIDTH      => 42,
+#                        ROMLST     => [
+#                            {
+#                                NAME         => "RR16FFGL_VROM512X42M8B4E1P0L20",
+#                                SIZE         => 512,
+#                                NUM          => -1, 
+#                            },
+#                            ],
+#                    },
+#                    ],
+#            },
+#            ],
+#    },
+#    
+#    );
+
+
+# USAGE: ./sbp_rom_gen.pl sbp_sys_rom /project/users/erics/work/Downloads/temp/te_sbp_0_3_0/build_secure/SysROM.mif
+use Math::BigInt;
+my @mif_input;
+my $mem_name = $ARGV[0];
+my $filename = $ARGV[1];
+open (INPUT, "$filename");
+while (<INPUT>) {
+    chomp;
+    my $hex = "0x".$_;
+    my $dec = Math::BigInt->new($hex);
+    #print "$hex = $dec\n";
+    push @mif_input, $dec;
+}
+
+close (INPUT);
+
+# Loop through all ROM structures
+#for $mem_name (keys %sbp_roms)
+# {
+     # Get total size/width/address width of ROM structure
+     my $tot_width = $sbp_roms{$mem_name}{WIDTH};
+     my $tot_size = $sbp_roms{$mem_name}{SIZE};
+     my $tot_size_pow_2 = 2**bits_in_number($tot_size);
+     my $tot_addr_w = bits_in_number($tot_size);
+     print "mem_name = $mem_name, width = $tot_width, size = $tot_size\n";
+
+     # Get list of "Blocks" - address range 
+     my $blk_list_ref = $sbp_roms{$mem_name}{BLKLST};
+     my @blk_list = @$blk_list_ref;
+
+     # Initialize start address
+     my $blk_start_addr = 0;
+
+     # Loop through 
+     foreach my $blk (@blk_list) {
+
+         # Each block has its own size
+         my $blk_size = $blk->{SIZE};
+         my $blk_size_pow_2 = 2**bits_in_number($blk_size);
+         my $blk_nxt_start = $blk_start_addr + $blk_size_pow_2;
+         my $blk_addr_w = bits_in_number($blk_size);
+         print "block size = $blk_size\n";
+
+         # Get list of ROMs that compose lane
+         my $lane_list_ref = $blk->{LANELST};
+         my @lane_list = @$lane_list_ref;
+         my $lane_start = 0;
+
+         # Loop through 
+         foreach my $lane (@lane_list) {
+
+             # Each Lane has its own name/width
+             my $lane_name = $lane->{NAME};
+             my $lane_width = $lane->{WIDTH};
+             my $lane_max = 2**$lane_width;
+             my $lane_div = 2**$lane_start;
+             print "lane_start  lane_div: $lane_start  $lane_div\n";
+             my $lane_mask = (2**$lane_width)-1;
+             my $lane_mask_b = sprintf("%032b", $lane_mask);
+             print "lane $lane_name, width = $lane_width\n";
+
+             # Get list of ROMs that compose lane
+             my $rom_list_ref = $lane->{ROMLST};
+             my @rom_list = @$rom_list_ref;
+
+             # Initialize start address
+             my $start_addr = $blk_start_addr;
+
+             # Loop through ROM list
+             foreach my $rom (@rom_list) {
+
+                 # Each ROM has name, size, and number to instantiate (-1 indicates "as many as possible")
+                 my $rom_name = $rom->{NAME};
+                 my $rom_size = $rom->{SIZE};
+                 my $rom_size_pow_2 = 2**bits_in_number($rom_size);
+                 my $rom_num = $rom->{NUM};
+                 my $rom_addr_w = bits_in_number($rom_size);
+                 print "start_addr = $start_addr\n";
+                 print "rom_size = $rom_size, rom_num = $rom_num, rom_addr_w = $rom_addr_w\n";
+
+                 # Check that the start address is on size boundary
+                 if ($start_addr%$rom_size != 0) { $start_addr += $rom_size - $start_addr%$rom_size; }
+                 print "start_addr (adjusted) = $start_addr, blk_size_pow_2 = $blk_size_pow_2, rom_size_pow_2 = $rom_size_pow_2\n";
+                 # adjust rom_num for "-1" case
+                 if ($rom_num == -1) { $rom_num = ($blk_nxt_start - $start_addr)/$rom_size_pow_2; }
+                 print "rom_num (adjusted) = $rom_num\n";
+                 for (my $i = 0; $i < $rom_num; $i++) {
+                     # Check that the start address is on size boundary
+                     if ($start_addr%$rom_size != 0) { $start_addr += $rom_size - $start_addr%$rom_size; }
+                     my $end_addr = $start_addr + $rom_size - 1;
+                     my $addr_sel_r = "$tot_addr_w-1:$rom_addr_w";
+                     my $addr_sel_val = $start_addr >> $rom_addr_w;
+                     my $rom_inst_name = $rom_name."_".$lane_name."_".$start_addr."_".$end_addr."_".$mem_name;
+                     print "     rom $rom_name, size = $rom_size, num = $rom_num\n     start_addr = $start_addr, end_addr = $end_addr\n";
+                     print "ROM: $rom_inst_name\n";
+                     print "ROM: sel = addr[$addr_sel_r] == $addr_sel_val\n";
+                     my $rom_inst_filename = $rom_inst_name.".bintxt";
+                     open (OUTPUT, "> $rom_inst_filename");
+                     my $mif_data;
+                     print OUTPUT "start_FA $rom_inst_name\n";
+                     print OUTPUT "CUBES:\n";
+                     for (my $addr = 0; $addr < $rom_size; $addr++) {
+                         my $mif_addr = $start_addr + $addr;
+                         $mif_data = 0;#$mif_input[$mif_addr];
+                         if ($mif_addr < $#mif_input) {
+                             $mif_data = $mif_input[$mif_addr];
+                         }
+                         my $addr_p = sprintf("%0*b", $rom_addr_w, $addr);
+                         $mif_data = ($mif_data/$lane_div) % $lane_max;
+                         my $data_p = sprintf("%0*b", $lane_width, $mif_data);
+                         print OUTPUT "$addr_p $data_p\n";
+                     }
+                     print OUTPUT "end_FA $rom_inst_name\n";
+                     close (OUTPUT);
+                     
+                     $start_addr = $end_addr + 1;
+                 }
+             }
+             $lane_start += $lane_width;
+         }
+         $blk_start_addr += $blk_size_pow_2;
+     }
+     
+ #}
+

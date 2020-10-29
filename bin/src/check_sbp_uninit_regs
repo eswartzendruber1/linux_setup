@@ -1,0 +1,153 @@
+#!/bin/csh -f
+
+# comment
+set exceptions = "^#"
+
+# header string
+set exceptions = "$exceptions|^ID"
+
+# lib_sync_flop_fifo
+set exceptions = "$exceptions|,lib_sync_flop_fifo_"
+
+# lib_sync_shift_fifo
+set exceptions = "$exceptions|,lib_sync_shift_fifo_"
+
+# lib_async_fifo
+set exceptions = "$exceptions|\.u_lib_async_flop_mem\.u_fasync_rddata_en_dflop_b"
+set exceptions = "$exceptions|\.u_lib_async_flop_mem\.u_fasync_mem_w"
+
+# memory wrappers
+set exceptions = "$exceptions|,lib_mwrp_"
+
+# bypass macro
+set exceptions = "$exceptions|,lib_bypass_v2_"
+
+# lib_rsu
+set exceptions = "$exceptions|,lib_rsu_"
+
+# lib_wu_crd_pf
+set exceptions = "$exceptions|,lib_wu_crd_pf_"
+
+## fla
+#set exceptions = "$exceptions|pc_rgx_put\.fla_slave_i0"
+#
+## clk_gater
+#set exceptions = "$exceptions|pc_rgx_put\.pc_clk_gater"
+#set exceptions = "$exceptions|pc_rgx_put\.clk_gater"
+
+# Ignore everything inside esecure except mem wrappers
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_external_dma\.i_AXIDMA\."
+
+
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_clkseq_gate\.uclk_gate\.uclk_gate"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_clkdiv2_gate\.uclk_gate\.uclk_gate"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_clk_gate\.uclk_gate\.uclk_gate"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_DRBG\.i_SYS"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_DRBG\.i_REG"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_DRBG\.i_ALU"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_DRBG\.i_CPU"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_DRBG\.i_SHA"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_PK_Core\.i_ALU"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_PK_Core\.i_CodeSequencer"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_AximWriteResync"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_ext_interconnect"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_AximReadResync"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_QSPI"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_host\.i_mailbox\.i_core"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_interconnect\.i_M_PUF_input"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_interconnect\.i_M_Crypto_input"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_interconnect\.i_M_CPU_input"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_watchdog\.i_ResyncReload"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_timer\.i_Channel_1\.i_ResyncMatchValueEn"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_timer\.i_Channel_1\.i_ResyncLoadValueEn"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_timer\.i_Channel_0\.i_ResyncMatchValueEn"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_timer\.i_Channel_0\.i_ResyncLoadValueEn"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_cryptomaster_ahb\.i_clk_gate\.uclk_gate\.uclk_gate"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_cryptomaster_ahb\.i_ahbdma\.i_ahb_arbiter\.i_m2_input"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_cryptomaster_ahb\.i_ahbdma\.i_ahb_arbiter\.i_m1_input"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_cryptomaster_ahb\.i_ahbdma\.i_FIFO2AHB\.i_Data"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_cryptomaster_ahb\.i_core\.i_ba417"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_cryptomaster_ahb\.i_core\.i_ba413"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_cryptomaster_ahb\.i_core\.i_ba411e\.i_AES_Wrapper\.i_gcm_multh_scal"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_cryptomaster_ahb\.i_core\.i_ba411e\.i_AES_Wrapper\.i_clock_gating_cell\.uclk_gate\.uclk_gate"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_cryptomaster_ahb\.i_core\.i_ba411e\.i_AES_Wrapper"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA414EP_Sys\.i_clkseq_gate\.uclk_gate\.uclk_gate"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA414EP_Sys\.i_clkdiv2_gate\.uclk_gate\.uclk_gate"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA414EP_Sys\.i_clk_gate\.uclk_gate\.uclk_gate"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA414EP_Sys\.i_Core"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA431\.i_NDRNG\.i_clock_gating_cell\.uclk_gate\.uclk_gate"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_cpu\.i_mips_cpu\.cpu\.core"
+
+
+set exceptions = "$exceptions|cc_sbp\.u_axicsr\.start_addr_reg\["
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_cc_sbp_reg\.rd_data_r\["
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_ahb_if\.req_wr_data_r1\["
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_ahb_if\.req_wr_data_r2\["
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_rx\.u_pc_fib_rx_cmh_ctrl\.in_flit_cnt_r\["
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_rx\.cmh_fiu_flit\[data]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_rx\.cmh_fiu_flit\[chan]\[vc]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_rx\.cmh_fiu_flit\[chan]\[vp]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_rx\.cmh_fiu_flit\[err]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_rx\.cmh_fiu_flit\[eop]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_rx\.cmh_fiu_flit\[sop]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_rx\.u_pc_fib_rx_cmh_ctrl\.rx_chan_crd_r\[vc]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_rx\.u_pc_fib_rx_cmh_ctrl\.rx_chan_crd_r\[vp]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_tx\.u_pc_fib_tx_cmh_ctrl\.msg_vc_r\["
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_tx\.u_pc_fib_tx_cmh_ctrl\.fiu_cmh_flit\[data]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_tx\.u_pc_fib_tx_cmh_ctrl\.fiu_cmh_flit\[chan]\[vc]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_tx\.u_pc_fib_tx_cmh_ctrl\.fiu_cmh_flit\[chan]\[vp]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_tx\.u_pc_fib_tx_cmh_ctrl\.fiu_cmh_flit\[err]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_tx\.u_pc_fib_tx_cmh_ctrl\.fiu_cmh_flit\[eop]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_tx\.u_pc_fib_tx_cmh_ctrl\.fiu_cmh_flit\[sop]"
+set exceptions = "$exceptions|cc_sbp\.u_pc_fib\.u_pc_fib_ahb_if\.tx_ahb_rd_data_r\["
+set exceptions = "$exceptions|cc_sbp\.i_sbp_gpi_sync\.u_fasync_meta_bit0\.inst"
+#set exceptions = "$exceptions|cc_sbp\.u_dbgif"
+set exceptions = "$exceptions|cc_sbp\.u_dbgif\.word_data\["
+set exceptions = "$exceptions|cc_sbp\.u_dbgif\.ring_data\["
+set exceptions = "$exceptions|cc_sbp\.u_dbgif\.ring_data_o\["
+set exceptions = "$exceptions|cc_sbp\.u_dbgif\.push_message_ptr\["
+set exceptions = "$exceptions|cc_sbp\.u_dbgif\.push_message_end\["
+set exceptions = "$exceptions|cc_sbp\.u_dbgif\.word_buffer\["
+set exceptions = "$exceptions|cc_sbp\.u_dbgif\.byte_data\["
+
+
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_CodeMem_PUF\.i_CodeRom\.\\genblk1\.u_puf_pke_rom"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_DrbgInternalRam\.i_RAM\.\\genblk1\.genblk1\.u_sbp_256x32_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_CryptoRam\.i_RAM_upper\.\\genblk1\.genblk1\.u_sbp_320x36_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_CryptoRam\.i_RAM_lower\.\\genblk1\.genblk1\.u_sbp_320x32_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_puf_wrapper\.i_ram\.i_RAM\.\\genblk1\.genblk1\.u_sbp_256x32_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_DRBG\.i_CPU\.g_CodeROM"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_sbp_puf\.i_DRBG\.i_ROM"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_retention\.i_SysRAM_wrapper\.i_SysRAM\.i_SysRam\.\\genblk1\.u_sbp_16kx36_mem_3"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_retention\.i_SysRAM_wrapper\.i_SysRAM\.i_SysRam\.\\genblk1\.u_sbp_16kx36_mem_2"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_retention\.i_SysRAM_wrapper\.i_SysRAM\.i_SysRam\.\\genblk1\.u_sbp_16kx36_mem_1"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_retention\.i_SysRAM_wrapper\.i_SysRAM\.i_SysRam\.\\genblk1\.u_sbp_16kx36_mem_0"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_retention\.i_SysRAM_wrapper\.i_SysRAM\.i_SysRam\.\\genblk1"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_SysROM_wrapper\.i_clkdiv2_gate\.uclk_gate\.uclk_gate"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_otp_model\.i_otp_mem\.u_sbp_211_128x32_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_otp_model\.i_otp_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA414EP_Sys\.i_CodeMem\.i_CodeRom\.\\genblk1\.u_pka_pke_rom"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA414EP_Sys\.i_ahbint\.i_ahb2ram_async\.i_Fifo_Ram2Ahb\.i_Mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA414EP_Sys\.i_ahbint\.i_ahb2ram_async\.i_Fifo_Ram2Ahb\.i_Mem\.\\l_SingleDistributed"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA414EP_Sys\.i_ahbint\.i_ahb2ram_async\.i_Fifo_ahb2ram\.i_Mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA414EP_Sys\.i_ahbint\.i_ahb2ram_async\.i_Fifo_ahb2ram\.i_Mem\.\\l_SingleDistributed"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_cryptomaster_ahb\.i_core\.i_SlvSelFifo\.i_Mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_cryptomaster_ahb\.i_core\.i_SlvSelFifo\.i_Mem\.\\l_SingleDistributed"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA414EP_Sys\.i_Ram\.i_DataRam\.i_DataRam\.\\genblk1\.u_pka_512x272_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA431\.i_NDRNG\.i_fifo\.i_Mem\.\\l_SingleBlock"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA431\.i_NDRNG\.i_aes_fifo\.i_Mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_core\.i_cryptowrap_ahb\.i_common\.i_BA431\.i_NDRNG\.i_aes_fifo\.i_Mem\.\\l_SingleDistributed"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_cpu\.i_mips_cpu\.cpu\.dcache\.wsram\.dataram\.\\genblk1\.genblk1\.u_sbp_128x14_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_cpu\.i_mips_cpu\.cpu\.dcache\.dataram\.dataram\.\\genblk1\.genblk1\.u_sbp_512x144_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_cpu\.i_mips_cpu\.cpu\.dcache\.dataram"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_cpu\.i_mips_cpu\.cpu\.dcache\.tagram\.dataram\.\\genblk1\.genblk1\.u_sbp_128x100_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_cpu\.i_mips_cpu\.cpu\.icache\.wsram\.dataram\.\\genblk1\.genblk1\.u_sbp_128x6_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_cpu\.i_mips_cpu\.cpu\.icache\.dataram\.dataram\.\\genblk1\.genblk1\.u_sbp_512x144_mem"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_cpu\.i_mips_cpu\.cpu\.icache\.dataram"
+set exceptions = "$exceptions|cc_sbp\.u_esecure_top\.i_pd_core\.i_esecure_cpu\.i_mips_cpu\.cpu\.icache\.tagram\.dataram\.\\genblk1\.genblk1\.u_sbp_128x100_mem"
+
+egrep -v "$exceptions" $1
+
+
+
+

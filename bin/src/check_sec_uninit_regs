@@ -1,0 +1,76 @@
+#!/bin/csh -f
+
+# comment
+set exceptions = "^#"
+
+# header string
+set exceptions = "$exceptions|^ID"
+
+# lib_sync_flop_fifo
+set exceptions = "$exceptions|,lib_sync_flop_fifo_"
+
+# lib_sync_shift_fifo
+set exceptions = "$exceptions|,lib_sync_shift_fifo_"
+
+# lib_async_fifo
+set exceptions = "$exceptions|\.u_lib_async_flop_mem\.u_fasync_rddata_en_dflop_b"
+set exceptions = "$exceptions|\.u_lib_async_flop_mem\.u_fasync_mem_w"
+
+# memory wrappers
+set exceptions = "$exceptions|,lib_mwrp_"
+
+# bypass macro
+set exceptions = "$exceptions|,lib_bypass_v2_"
+
+# lib_rsu
+set exceptions = "$exceptions|,lib_rsu_"
+
+# lib_wu_crd_pf
+set exceptions = "$exceptions|,lib_wu_crd_pf_"
+
+# fla
+set exceptions = "$exceptions|sec\.u_sec_debug\.u_fla_slave"
+
+# clk_gater
+set exceptions = "$exceptions|sec\.aes_clk_gater"
+set exceptions = "$exceptions|sec\.sha_clk_gater"
+
+
+set exceptions = "$exceptions|sec\.u_sec_sha_proc\.u_sec_sha_ctrl\.sha_out_r\["
+set exceptions = "$exceptions|sec\.u_sec_sha_proc\.u_sec_sha_thread_ctrl_.\.u_sha3_engine\.u_sha3_core\.R_ior\["
+set exceptions = "$exceptions|sec\.u_sec_sha_proc\.u_sec_sha_thread_ctrl_.\.u_sha3_engine\.u_sha3_core\.R_sar\["
+set exceptions = "$exceptions|sec\.u_sec_sha_proc\.u_sec_sha_thread_ctrl_.\.u_sha3_engine\.cmd_r\["
+set exceptions = "$exceptions|sec\.u_sec_sha_proc\.u_sec_sha_thread_ctrl_.\.u_sha_engine\.u_sha_core\.I_core_data_r\["
+set exceptions = "$exceptions|sec\.u_sec_sha_proc\.u_sec_sha_thread_ctrl_.\.u_sha_engine\.u_sha_core\.alg_rx\["
+set exceptions = "$exceptions|sec\.u_sec_sha_proc\.u_sec_sha_thread_ctrl_.\.u_sha_engine\.u_sha_core\.Wt_plus_Kt_r1\["
+set exceptions = "$exceptions|sec\.u_sec_sha_proc\.u_sec_sha_thread_ctrl_.\.u_sha_engine\.u_sha_core\.H._r.\["
+set exceptions = "$exceptions|sec\.u_sec_sha_proc\.u_sec_sha_thread_ctrl_.\.u_sha_engine\.prev_h_r\["
+set exceptions = "$exceptions|sec\.u_sec_sha_proc\.u_sec_sha_thread_ctrl_.\.u_sha_engine\.cmd_r\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_drbg\.v_rx\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_drbg\.key_0_rx\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_drbg\.key_1_rx\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_drbg\.reseed_int_rx\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_drbg\.reseed_cnt_rx\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_ctrl\.u_aes_pipe\.state_q\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_ctrl\.u_aes_pipe\.key_q\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_ctrl\.u_aes_pipe\.keysize_q\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_ctrl\.c_blk_cnt_s1r0\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_ctrl\.xts_blk_msk_s1r0\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_ctrl\.or_s2r1\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_ctrl\.st1_s2r1\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_ctrl\.st2_s2r1\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_thread_.\.u_sec_aes_thread_ctrl\.key_0_s1r0\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_thread_.\.u_sec_aes_thread_ctrl\.key_1_s1r0\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_thread_.\.u_sec_aes_thread_ctrl\.klen_s1r0\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_ctrl\.in_data_s1r0\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_out_sel\.aes_out_data_s3r2\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_thread_.\.u_sec_aes_thread_ctrl\.o_st1_rx\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.u_sec_aes_thread_.\.u_sec_aes_thread_ctrl\.o_st2_rx\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.aes_out_data_s3r3\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.aes_out_byte_cnt_s3r3\["
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.aes_out_sop_s3r3"
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.aes_out_eop_s3r3"
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.aes_out_drbg_s3r3"
+set exceptions = "$exceptions|sec\.u_sec_aes_proc\.aes_out_err_s3r3"
+
+egrep -v "$exceptions" $1
