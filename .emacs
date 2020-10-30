@@ -5,8 +5,10 @@
 ; Set the font
 ;(if 'nil
 ;(set-default-font "-schumacher-clean-medium-r-normal--12-120-75-75-c-60-iso8859-7")
-;)
+					;)
+(if 'nil
 (set-default-font "Hack 11")
+)
 
 ; No startup screen
 (setq inhibit-startup-message t)

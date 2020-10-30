@@ -376,7 +376,7 @@
    (setq default-frame-alist
          '(
            (width . 166)
-           (height . 75)
+           (height . 60)
            (background-color . "black")
            (foreground-color . "white")
            )
@@ -462,8 +462,11 @@
 
    (load "light-symbol")
    
-   (require 'ido)
-   (ido-mode t)
+;   (require 'ido)
+;   (ido-mode t)
+   (setq ido-enable-flex-matching t)
+   (setq ido-everywhere t)
+   (ido-mode 1)
    
    (require 'browse-kill-ring)
    (browse-kill-ring-default-keybindings)
